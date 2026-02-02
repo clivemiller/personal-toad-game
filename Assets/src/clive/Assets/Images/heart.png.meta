@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 03114180678686148b66305d5a83a5a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -205270267638800340
+    second: heart_0
+  - first:
+      213: 7904136456745960365
+    second: heart_1
+  - first:
+      213: 6960772035834626590
+    second: heart_2
+  - first:
+      213: -7403393265459281337
+    second: heart_3
+  - first:
+      213: -3830260593909529575
+    second: heart_4
+  - first:
+      213: 7694531943161221939
+    second: heart_5
+  - first:
+      213: 4729818260483457387
+    second: heart_6
+  - first:
+      213: 3128560658419286586
+    second: heart_7
+  - first:
+      213: 7301465457164268856
+    second: heart_8
+  - first:
+      213: 7042384109676019114
+    second: heart_9
+  - first:
+      213: -6490385013139535653
+    second: heart_10
+  - first:
+      213: 390122160042307090
+    second: heart_11
+  - first:
+      213: -5513223382738174869
+    second: heart_12
+  - first:
+      213: -7542883581783289142
+    second: heart_13
+  - first:
+      213: -8267851290117773500
+    second: heart_14
+  - first:
+      213: 8043060671927494271
+    second: heart_15
+  - first:
+      213: -1606352187053703381
+    second: heart_16
+  - first:
+      213: 7204924603441717689
+    second: heart_17
+  - first:
+      213: -3651194002782890023
+    second: heart_18
+  - first:
+      213: 8744739626423422165
+    second: heart_19
+  - first:
+      213: 3260633064911853847
+    second: heart_20
+  - first:
+      213: -6516993328518625191
+    second: heart_21
+  - first:
+      213: -5060514311313088926
+    second: heart_22
+  - first:
+      213: 5180709076692079376
+    second: heart_23
+  - first:
+      213: -4653824408487986817
+    second: heart_24
+  - first:
+      213: 4134863632606320817
+    second: heart_25
+  - first:
+      213: 7025489124559844148
+    second: heart_26
+  - first:
+      213: -5688179294855823548
+    second: heart_27
+  - first:
+      213: 7132918619842189672
+    second: heart_28
+  - first:
+      213: -7806173982960874914
+    second: heart_29
+  - first:
+      213: -1103692299330722098
+    second: heart_30
+  - first:
+      213: 5517090352272671989
+    second: heart_31
+  - first:
+      213: 419486564666525888
+    second: heart_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 832
+        width: 237
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20a07677cbb62df0800000000000000
+      internalID: -205270267638800340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_0
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 884
+        width: 139
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12456e6941a99060800000000000000
+      internalID: 6960772035834626590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 556
+        width: 290
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1ad95e0c80df360800000000000000
+      internalID: 7204924603441717689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_3
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 596
+        width: 211
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b85e20019cf16930800000000000000
+      internalID: 4134863632606320817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ab5293c588f6d3e43ae20183e2b524ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heart_0: 6960772035834626590
+      heart_1: -205270267638800340
+      heart_10: -6490385013139535653
+      heart_11: 390122160042307090
+      heart_12: -5513223382738174869
+      heart_13: -7542883581783289142
+      heart_14: -8267851290117773500
+      heart_15: 8043060671927494271
+      heart_16: -1606352187053703381
+      heart_18: -3651194002782890023
+      heart_19: 8744739626423422165
+      heart_2: 7204924603441717689
+      heart_20: 3260633064911853847
+      heart_21: -6516993328518625191
+      heart_22: -5060514311313088926
+      heart_23: 5180709076692079376
+      heart_24: -4653824408487986817
+      heart_26: 7025489124559844148
+      heart_27: -5688179294855823548
+      heart_28: 7132918619842189672
+      heart_29: -7806173982960874914
+      heart_3: 4134863632606320817
+      heart_30: -1103692299330722098
+      heart_31: 5517090352272671989
+      heart_32: 419486564666525888
+      heart_4: -3830260593909529575
+      heart_5: 7694531943161221939
+      heart_6: 4729818260483457387
+      heart_7: 3128560658419286586
+      heart_8: 7301465457164268856
+      heart_9: 7042384109676019114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
