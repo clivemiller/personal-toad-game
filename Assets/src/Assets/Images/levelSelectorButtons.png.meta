@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 2f92993c41ae76a4196876fe79daf4d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -309226926919113980
+    second: levelSelectorButtons_0
+  - first:
+      213: -1850027524968488457
+    second: levelSelectorButtons_1
+  - first:
+      213: 4773098655337864133
+    second: levelSelectorButtons_2
+  - first:
+      213: 5007949182088326364
+    second: levelSelectorButtons_3
+  - first:
+      213: -2850122559265710130
+    second: levelSelectorButtons_4
+  - first:
+      213: 4363609502974665835
+    second: levelSelectorButtons_5
+  - first:
+      213: 5037590873981021893
+    second: levelSelectorButtons_6
+  - first:
+      213: -3487898833490195034
+    second: levelSelectorButtons_7
+  - first:
+      213: 6282536167925421881
+    second: levelSelectorButtons_8
+  - first:
+      213: -3799903841024814509
+    second: levelSelectorButtons_9
+  - first:
+      213: -8825814171298233084
+    second: levelSelectorButtons_10
+  - first:
+      213: -5281351860557058156
+    second: levelSelectorButtons_11
+  - first:
+      213: 8343088949472372974
+    second: levelSelectorButtons_12
+  - first:
+      213: 8521330833508721685
+    second: levelSelectorButtons_13
+  - first:
+      213: 2469007293188323759
+    second: levelSelectorButtons_14
+  - first:
+      213: -5753501067096770122
+    second: levelSelectorButtons_15
+  - first:
+      213: 3209872542769325315
+    second: levelSelectorButtons_16
+  - first:
+      213: 1862689642077281735
+    second: levelSelectorButtons_17
+  - first:
+      213: -3385027557795937590
+    second: levelSelectorButtons_18
+  - first:
+      213: 4707997632171927515
+    second: levelSelectorButtons_19
+  - first:
+      213: 1698272588475271933
+    second: levelSelectorButtons_20
+  - first:
+      213: -2531677171720994895
+    second: levelSelectorButtons_21
+  - first:
+      213: 1376959986454333212
+    second: levelSelectorButtons_22
+  - first:
+      213: -3209223657775351917
+    second: levelSelectorButtons_23
+  - first:
+      213: 3850039032202510688
+    second: levelSelectorButtons_24
+  - first:
+      213: 2325586806762240133
+    second: levelSelectorButtons_25
+  - first:
+      213: -7471048515436629020
+    second: levelSelectorButtons_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: level_button_4
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 904
+        width: 136
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40320029fb765bbf0800000000000000
+      internalID: -309226926919113980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_8
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 847
+        width: 135
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbde4520f37d3240800000000000000
+      internalID: 4773098655337864133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_5
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 626
+        width: 138
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfd3a802a45278d0800000000000000
+      internalID: -2850122559265710130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 659
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce6367a53e19e540800000000000000
+      internalID: 5037590873981021893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_9
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 558
+        width: 137
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9371db1cb5d003750800000000000000
+      internalID: 6282536167925421881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_11
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 474
+        width: 137
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8a9ca223b98c370800000000000000
+      internalID: 8343088949472372974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 377
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305ab0e2212cb8c20800000000000000
+      internalID: 3209872542769325315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_6
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 344
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdd0da4c5a99d910800000000000000
+      internalID: 1862689642077281735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_10
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 283
+        width: 136
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac24aaeee57f501d0800000000000000
+      internalID: -3385027557795937590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_12
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 187
+        width: 137
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17898eefc1fb1310800000000000000
+      internalID: 1376959986454333212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 103
+        width: 133
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061c1d5f9161e6530800000000000000
+      internalID: 3850039032202510688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_button_7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 69
+        width: 135
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3b0b165f0815890800000000000000
+      internalID: -7471048515436629020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1343677714185b84eb596a06d3840395
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      levelSelectorButtons_1: -1850027524968488457
+      levelSelectorButtons_10: -8825814171298233084
+      levelSelectorButtons_11: -5281351860557058156
+      levelSelectorButtons_13: 8521330833508721685
+      levelSelectorButtons_14: 2469007293188323759
+      levelSelectorButtons_15: -5753501067096770122
+      levelSelectorButtons_19: 4707997632171927515
+      levelSelectorButtons_20: 1698272588475271933
+      levelSelectorButtons_21: -2531677171720994895
+      levelSelectorButtons_23: -3209223657775351917
+      levelSelectorButtons_25: 2325586806762240133
+      levelSelectorButtons_3: 5007949182088326364
+      levelSelectorButtons_5: 4363609502974665835
+      levelSelectorButtons_7: -3487898833490195034
+      levelSelectorButtons_9: -3799903841024814509
+      level_button_1: 5037590873981021893
+      level_button_10: -3385027557795937590
+      level_button_11: 8343088949472372974
+      level_button_12: 1376959986454333212
+      level_button_2: 3209872542769325315
+      level_button_3: 3850039032202510688
+      level_button_4: -309226926919113980
+      level_button_5: -2850122559265710130
+      level_button_6: 1862689642077281735
+      level_button_7: -7471048515436629020
+      level_button_8: 4773098655337864133
+      level_button_9: 6282536167925421881
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

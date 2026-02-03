@@ -27,7 +27,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/LevelSelector.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/LevelMasterScene.unity
+    m_path: Assets/Scenes/DeathScene.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/RussianRoulette.unity
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
