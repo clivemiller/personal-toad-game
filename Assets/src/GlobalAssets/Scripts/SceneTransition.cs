@@ -14,4 +14,15 @@ public class SceneTransition : MonoBehaviour
 
         SceneManager.LoadScene(sceneName);
     }
+
+    public void LoadSceneByName(string sceneNamePassedIn)
+    {
+        if (string.IsNullOrWhiteSpace(sceneNamePassedIn))
+        {
+            Debug.LogWarning("SceneTransition: sceneName is empty.", this);
+            return;
+        }
+
+        SceneManager.LoadScene(sceneNamePassedIn);
+    }
 }
