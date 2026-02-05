@@ -64,7 +64,7 @@ public class RouletteScript : MonoBehaviour
 
                 break;
             case 6:
-                sceneTransition.LoadSceneByName("MainMenuStyled");
+                SceneTransition.LoadSceneByName("Desk");
 
                 break;
             default:

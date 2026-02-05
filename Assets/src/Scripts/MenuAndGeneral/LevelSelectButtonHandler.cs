@@ -107,6 +107,6 @@ public class LevelSelectButtonHandler : MonoBehaviour
         PlayerPrefs.Save();
 
         Debug.Log($"Level {levelNumber} selected. Loading constructor scene: {constructorSceneName}");
-        SceneManager.LoadScene(constructorSceneName);
+        SceneManager.LoadSceneAsync(constructorSceneName);
     }
 }

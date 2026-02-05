@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    public string sceneName;
+    public string sceneName = "";
     public void LoadScene()
     {
         if (string.IsNullOrWhiteSpace(sceneName))
@@ -12,17 +12,21 @@ public class SceneTransition : MonoBehaviour
             return;
         }
 
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 
-    public void LoadSceneByName(string sceneNamePassedIn)
+    static public void LoadSceneByName(string sceneNamePassedIn)
     {
-        if (string.IsNullOrWhiteSpace(sceneNamePassedIn))
-        {
-            Debug.LogWarning("SceneTransition: sceneName is empty.", this);
-            return;
-        }
+        SceneManager.LoadSceneAsync(sceneNamePassedIn);
+    }
 
-        SceneManager.LoadScene(sceneNamePassedIn);
+    public void LoadSceneWithFade()
+    {
+        SceneTransitionManager.LoadScene(sceneName);
+    }
+
+    static public void LoadSceneByNameWithFade(string sceneNamePassedIn)
+    {
+        SceneTransitionManager.LoadScene(sceneNamePassedIn);
     }
 }

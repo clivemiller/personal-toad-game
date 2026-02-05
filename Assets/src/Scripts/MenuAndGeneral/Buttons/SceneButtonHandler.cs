@@ -14,6 +14,10 @@ public class SceneButtonHandler : MonoBehaviour
     [SerializeField]
     private Camera clickCamera;
 
+    [Header("Fade Settings")]
+    [SerializeField]
+    public bool doFadeClick = false;
+
     [Header("Scene Settings")]
     [SerializeField]
     private string sceneName;
@@ -98,6 +102,13 @@ public class SceneButtonHandler : MonoBehaviour
         }
 
         Debug.Log($"Loading scene: {sceneName}");
-        SceneManager.LoadScene(sceneName);
+        if (doFadeClick)
+        {
+            SceneTransition.LoadSceneByNameWithFade(sceneName);
+        }
+        else
+        {
+            SceneTransition.LoadSceneByName(sceneName);
+        }
     }
 }
