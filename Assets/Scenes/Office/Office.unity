@@ -142,7 +142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972528941530223135, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4030108923311682214, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       propertyPath: clickCamera
@@ -613,6 +613,7 @@ PrefabInstance:
     - {fileID: 1804601149862948223, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
     - {fileID: 6560284519148301057, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
     - {fileID: 4020345865928562291, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
+    - {fileID: 6323172127531883032, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1194726956174969849, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
     - {fileID: 4338485837608797879, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
@@ -621,6 +622,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4753984485478668603, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 413766012}
+    - targetCorrespondingSourceObject: {fileID: 4753984485478668603, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 413766014}
+    - targetCorrespondingSourceObject: {fileID: 4753984485478668603, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 413766013}
   m_SourcePrefab: {fileID: 100100000, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
 --- !u!4 &413766010 stripped
 Transform:
@@ -678,6 +685,36 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.953808, y: 2.7703612}
   m_EdgeRadius: 0
+--- !u!114 &413766013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413766011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCamera: {fileID: 263738133}
+  hoverSound: {fileID: 0}
+--- !u!114 &413766014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413766011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
+  clickCamera: {fileID: 263738133}
+  setManager: {fileID: 873095830}
+  setName: CorkBoard
+  clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
 --- !u!1 &679088236
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,7 +1014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 676412829241967079, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1064592627302143168, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       propertyPath: clickCamera

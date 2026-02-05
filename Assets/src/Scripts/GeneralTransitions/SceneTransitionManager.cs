@@ -183,13 +183,16 @@ public class SceneTransitionManager : MonoBehaviour
         // Fade out (to black)
         yield return StartCoroutine(FadeCoroutine(0f, 1f, halfDuration));
 
-        // Load the scene
-        SceneManager.LoadSceneAsync(sceneName);
+        // IMMEDIATELY start loading the scene once screen is black
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
-        // Wait a frame for the scene to load
-        yield return null;
+        // Wait for the scene to be FULLY loaded
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
 
-        // Fade in (from black)
+        // Fade in (from black) ONLY after scene is confirmed loaded
         yield return StartCoroutine(FadeCoroutine(1f, 0f, halfDuration));
 
         // Re-enable interaction
@@ -211,13 +214,16 @@ public class SceneTransitionManager : MonoBehaviour
         // Fade out (to black)
         yield return StartCoroutine(FadeCoroutine(0f, 1f, halfDuration));
 
-        // Load the scene
-        SceneManager.LoadSceneAsync(sceneIndex);
+        // IMMEDIATELY start loading the scene once screen is black
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
 
-        // Wait a frame for the scene to load
-        yield return null;
+        // Wait for the scene to be FULLY loaded
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
 
-        // Fade in (from black)
+        // Fade in (from black) ONLY after scene is confirmed loaded
         yield return StartCoroutine(FadeCoroutine(1f, 0f, halfDuration));
 
         // Re-enable interaction
