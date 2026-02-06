@@ -23,15 +23,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/General/MainMenuStyled.unity
   - m_enabled: 1
+    m_path: Assets/Scenes/Office/Office.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/General/DeathScene.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Office/Desk.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Office/RussianRoulette.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Office/PauseMenuStyled.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Office/LevelSelector.unity
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

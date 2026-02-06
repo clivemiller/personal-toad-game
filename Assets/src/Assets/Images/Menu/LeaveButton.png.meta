@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 9d73ca2ff17559b4b9801e4b89d3447f
+guid: 766dd7ee39f68944c9e993a43aef52c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8056269757015164320
-    second: Untitled_Artwork (2)_0
+      213: -4937803984439019196
+    second: Untitled_Artwork (6)_0
   - first:
-      213: 657810923222281855
-    second: Untitled_Artwork (2)_1
-  - first:
-      213: -5212105263687333457
-    second: Untitled_Artwork (2)_2
-  - first:
-      213: -3423964349622760944
-    second: Untitled_Artwork (2)_3
+      213: -1008830682064016627
+    second: Untitled_Artwork (6)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,67 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu Buttons_0
+      name: Untitled_Artwork (6)_0
       rect:
         serializedVersion: 2
-        x: 496
-        y: 1371
-        width: 474
-        height: 537
-      alignment: 9
-      pivot: {x: 0.32440314, y: 0.21359126}
+        x: 368
+        y: 741
+        width: 199
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d835067344375c6478d4f26e5c893376
-      internalID: -421924493
+      spriteID: 449f0011075697bb0800000000000000
+      internalID: -4937803984439019196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Menu Buttons_2
+      name: Untitled_Artwork (6)_1
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 1263
-        width: 129
-        height: 609
+        x: 389
+        y: 734
+        width: 50
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 64adb9ed58f1cef4b98ef403c134add6
-      internalID: 313770136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Menu Buttons_3
-      rect:
-        serializedVersion: 2
-        x: 669
-        y: 1218
-        width: 439
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a9c48fb4cc75a044a66c6d1573c355f
-      internalID: 1728204335
+      spriteID: d0b2f05f6d9eff1f0800000000000000
+      internalID: -1008830682064016627
       vertices: []
       indices: 
       edges: []
@@ -191,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 91b3e147aa5d9b34d8794dbadcc62a7c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -199,14 +171,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Menu Buttons_0: -421924493
-      Menu Buttons_1: -725334080
-      Menu Buttons_2: 313770136
-      Menu Buttons_3: 1728204335
+      Untitled_Artwork (6)_0: -4937803984439019196
+      Untitled_Artwork (6)_1: -1008830682064016627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
