@@ -18,7 +18,10 @@ public class ButtonEffect : MonoBehaviour
 
     [Header("Hover Animation")]
     private const float transitionSeconds = 0.12f;
-    private const float hoverScaleMultiplier = 1.06f;
+
+    [Header("Hover Strength")]
+    [SerializeField]
+    private float hoverScaleMultiplier = 1.06f;
 
     [Header("Sound")]
     [SerializeField]
