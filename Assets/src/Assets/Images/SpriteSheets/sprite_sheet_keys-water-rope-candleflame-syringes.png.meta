@@ -1,0 +1,3900 @@
+fileFormatVersion: 2
+guid: 662b9ac66a9e5cd4593e2060a4523d6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2664753468357723718
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_0
+  - first:
+      213: 6794102235424033284
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_1
+  - first:
+      213: -7408969559865643145
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_2
+  - first:
+      213: -3532871393620573129
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_3
+  - first:
+      213: -3658749174537320983
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_4
+  - first:
+      213: -8192967024085143878
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_5
+  - first:
+      213: 902338472494916890
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_6
+  - first:
+      213: -8986843221884342498
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_7
+  - first:
+      213: 4312543141853260556
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_8
+  - first:
+      213: -4731476596810441545
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_9
+  - first:
+      213: 1500848829223722730
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_10
+  - first:
+      213: 5300904310634964567
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_11
+  - first:
+      213: 6217541961153981368
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_12
+  - first:
+      213: -6790785903971409268
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_13
+  - first:
+      213: -5349151886413177304
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_14
+  - first:
+      213: -2093091468232012340
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_15
+  - first:
+      213: 7737851737204328769
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_16
+  - first:
+      213: -7736891216583707543
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_17
+  - first:
+      213: 7115399568928431279
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_18
+  - first:
+      213: -6667146087719968684
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_19
+  - first:
+      213: 2855649736550849826
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_20
+  - first:
+      213: 6675452936093597908
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_21
+  - first:
+      213: 5633464213280995100
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_22
+  - first:
+      213: -3175947585072441028
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_23
+  - first:
+      213: 8241905714458405273
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_24
+  - first:
+      213: 1141203657434666178
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_25
+  - first:
+      213: 2016983226016739869
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_26
+  - first:
+      213: 2756451012935191135
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_27
+  - first:
+      213: -2589072293244852890
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_28
+  - first:
+      213: -8156322325472013686
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_29
+  - first:
+      213: -9131030643390642403
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_30
+  - first:
+      213: -7023117574173430161
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_31
+  - first:
+      213: 667451118315268385
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_32
+  - first:
+      213: 8823694043856229901
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_33
+  - first:
+      213: 8482210514836020093
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_34
+  - first:
+      213: 8128276086645527977
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_35
+  - first:
+      213: 840829952697107485
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_36
+  - first:
+      213: -8764536621703613568
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_37
+  - first:
+      213: 3166156260358537681
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_38
+  - first:
+      213: 8607733351878148881
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_39
+  - first:
+      213: -6237273044979549026
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_40
+  - first:
+      213: 861002524152858927
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_41
+  - first:
+      213: 6137322517530743250
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_42
+  - first:
+      213: 4480152569559396263
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_43
+  - first:
+      213: -3156482803306000394
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_44
+  - first:
+      213: -6732944425903324628
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_45
+  - first:
+      213: -1033083361692254210
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_46
+  - first:
+      213: 5259493714506013041
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_47
+  - first:
+      213: 2180946694047815808
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_48
+  - first:
+      213: 2007628718689880166
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_49
+  - first:
+      213: 908870930341913424
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_50
+  - first:
+      213: 2068244940382406520
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_51
+  - first:
+      213: -8347911364415476846
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_52
+  - first:
+      213: -6888403734417481658
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_53
+  - first:
+      213: 8805390558065652581
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_54
+  - first:
+      213: -7850190101684972296
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_55
+  - first:
+      213: -8374528852169901748
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_56
+  - first:
+      213: 1341922738986436563
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_57
+  - first:
+      213: -8947799856247933609
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_58
+  - first:
+      213: 6051977892527469772
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_59
+  - first:
+      213: -3327288294303588248
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_60
+  - first:
+      213: -1803821275848692028
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_61
+  - first:
+      213: 1137057939747016944
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_62
+  - first:
+      213: 4743706647244981439
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_63
+  - first:
+      213: 5222218719998880753
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_64
+  - first:
+      213: 2383179231614047114
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_65
+  - first:
+      213: -3040242674582215006
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_66
+  - first:
+      213: 2530402888344846865
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_67
+  - first:
+      213: 3904531753988101821
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_68
+  - first:
+      213: 4381386956767770903
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_69
+  - first:
+      213: 6006184208624874930
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_70
+  - first:
+      213: -8842925751004270956
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_71
+  - first:
+      213: -6740833257022903864
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_72
+  - first:
+      213: -8161205201953819465
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_73
+  - first:
+      213: -860595081993928090
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_74
+  - first:
+      213: -5505786366421629118
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_75
+  - first:
+      213: -3652796658197695203
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_76
+  - first:
+      213: 4788844442012896823
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_77
+  - first:
+      213: -8241139831894263458
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_78
+  - first:
+      213: -2734025086117290395
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_79
+  - first:
+      213: 6310180405420049298
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_80
+  - first:
+      213: 370904029774912186
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_81
+  - first:
+      213: 426090945219557187
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_82
+  - first:
+      213: 4023213219371210229
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_83
+  - first:
+      213: -1454417780218933436
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_84
+  - first:
+      213: -1506359214450444426
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_85
+  - first:
+      213: -4477843551495786357
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_86
+  - first:
+      213: -2435986190262433182
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_87
+  - first:
+      213: 8897790999016645212
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_88
+  - first:
+      213: 7243555973568837886
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_89
+  - first:
+      213: -5128482601904207134
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_90
+  - first:
+      213: -7648073251624483301
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_91
+  - first:
+      213: -5099452229469954854
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_92
+  - first:
+      213: -1898561105326671485
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_93
+  - first:
+      213: -1014521562574806342
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_94
+  - first:
+      213: -2834520488010580733
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_95
+  - first:
+      213: -1296509113923553398
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_96
+  - first:
+      213: 6156465910952877496
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_97
+  - first:
+      213: 8381865424516530493
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_98
+  - first:
+      213: -7201095827609619306
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_99
+  - first:
+      213: 2473985415325033024
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_100
+  - first:
+      213: -9142712646851769103
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_101
+  - first:
+      213: 9027413565983219142
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_102
+  - first:
+      213: 6222923206389593544
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_103
+  - first:
+      213: 4588809664087063428
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_104
+  - first:
+      213: 5039981843343518398
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_105
+  - first:
+      213: 614246844409019642
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_106
+  - first:
+      213: 5489884686556160413
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_107
+  - first:
+      213: 8277846085483459069
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_108
+  - first:
+      213: -7294621857521630090
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_109
+  - first:
+      213: 9002150382306588667
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_110
+  - first:
+      213: -4147987383200794105
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_111
+  - first:
+      213: 3168262548197396066
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_112
+  - first:
+      213: 7167205101583639427
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_113
+  - first:
+      213: 4981188396850011381
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_114
+  - first:
+      213: 3838183729204096997
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_115
+  - first:
+      213: 5143588112676399763
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_116
+  - first:
+      213: -4039985091641857951
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_117
+  - first:
+      213: 4189695097618081273
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_118
+  - first:
+      213: 5142114892449605777
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_119
+  - first:
+      213: -710384810825306888
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_120
+  - first:
+      213: -5990977781122355318
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_121
+  - first:
+      213: 2996146081049379745
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_122
+  - first:
+      213: 7363754517847761353
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_123
+  - first:
+      213: 3609960507786518176
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_124
+  - first:
+      213: -4293535455823708044
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_125
+  - first:
+      213: -3325925510027516086
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_126
+  - first:
+      213: -6568563629193030879
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_127
+  - first:
+      213: 1562291373508143096
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_128
+  - first:
+      213: 7546481003187929339
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_129
+  - first:
+      213: 8704824758814824614
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_130
+  - first:
+      213: -4310267134339269293
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_131
+  - first:
+      213: -1526261780368013104
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_132
+  - first:
+      213: -4645677212184551622
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_133
+  - first:
+      213: 7800037498636498015
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_134
+  - first:
+      213: 4411973284271349195
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_135
+  - first:
+      213: -7336585946092657142
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_136
+  - first:
+      213: -7342119968940891232
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_137
+  - first:
+      213: 6317523292433404290
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_138
+  - first:
+      213: 1530232879187739402
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_139
+  - first:
+      213: -4520692838051124856
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_140
+  - first:
+      213: 5284531483004737733
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_141
+  - first:
+      213: 4871344942175038748
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_142
+  - first:
+      213: 8562117969289942966
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_143
+  - first:
+      213: -2079210194353951261
+    second: sprite_sheet_keys-water-rope-candleflame-syringes_144
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_0
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1599
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646c377392b1bf420800000000000000
+      internalID: 2664753468357723718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1599
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a03268cff794e50800000000000000
+      internalID: 6794102235424033284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1596
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fa680907d0e2990800000000000000
+      internalID: -7408969559865643145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1603
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7344b1a7f28b8fec0800000000000000
+      internalID: -3532871393620573129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1605
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e50379b203893dc0800000000000000
+      internalID: -3658749174537320983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_5
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1558
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe6ae856ebbc4e80800000000000000
+      internalID: -8192967024085143878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_6
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1558
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a156a385f00c58c00800000000000000
+      internalID: 902338472494916890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_7
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1558
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fe47b34b1584380800000000000000
+      internalID: -8986843221884342498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_8
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1599
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0be5b0832b39db30800000000000000
+      internalID: 4312543141853260556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_9
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1606
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc1a088a1b665eb0800000000000000
+      internalID: -4731476596810441545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_10
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1408
+        width: 117
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeed07fee0614d410800000000000000
+      internalID: 1500848829223722730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_11
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1410
+        width: 101
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756ebb79268909940800000000000000
+      internalID: 5300904310634964567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1508
+        width: 24
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb2ba2c875294650800000000000000
+      internalID: 6217541961153981368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1589
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82ed00133842c1a0800000000000000
+      internalID: -6790785903971409268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1587
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e5bb843bef3c5b0800000000000000
+      internalID: -5349151886413177304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1588
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd41a93668d3f2e0800000000000000
+      internalID: -2093091468232012340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1593
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14904b8782f526b60800000000000000
+      internalID: 7737851737204328769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1554
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96430b92e6a01a490800000000000000
+      internalID: -7736891216583707543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_18
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1587
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac52fc753afeb260800000000000000
+      internalID: 7115399568928431279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_19
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1591
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450e0df05f98973a0800000000000000
+      internalID: -6667146087719968684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_20
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1561
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d1d063e4e41a720800000000000000
+      internalID: 2855649736550849826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_21
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1557
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d082bac319f3ac50800000000000000
+      internalID: 6675452936093597908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_22
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1596
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c173d77cad51e2e40800000000000000
+      internalID: 5633464213280995100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_23
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1590
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c395f7e8f74cce3d0800000000000000
+      internalID: -3175947585072441028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_24
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1556
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9992e8e6491216270800000000000000
+      internalID: 8241905714458405273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_25
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1556
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c415c91eae56df00800000000000000
+      internalID: 1141203657434666178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_26
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 1405
+        width: 106
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1236a0ce83cdfb10800000000000000
+      internalID: 2016983226016739869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_27
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1404
+        width: 104
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a84ca8791e04620800000000000000
+      internalID: 2756451012935191135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1577
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a55f7774c11cd0800000000000000
+      internalID: -2589072293244852890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1583
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8217ac1f0ceece80800000000000000
+      internalID: -8156322325472013686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_30
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1555
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d178e731200184180800000000000000
+      internalID: -9131030643390642403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_31
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1580
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ee69fb6cfd88e90800000000000000
+      internalID: -7023117574173430161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_32
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1581
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1296e1c7143434900800000000000000
+      internalID: 667451118315268385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_33
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1584
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06d7c2abfe047a70800000000000000
+      internalID: 8823694043856229901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_34
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1583
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b52e6c58dd6b570800000000000000
+      internalID: 8482210514836020093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_35
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1587
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a51fcc09007dc070800000000000000
+      internalID: 8128276086645527977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_36
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1408
+        width: 101
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d140507136a3bab00800000000000000
+      internalID: 840829952697107485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1545
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083347a016c1e5680800000000000000
+      internalID: -8764536621703613568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_38
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1541
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1cc02085270fb20800000000000000
+      internalID: 3166156260358537681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_39
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1550
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113caf7b0efc47770800000000000000
+      internalID: 8607733351878148881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_40
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1547
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cffda4631c079a0800000000000000
+      internalID: -6237273044979549026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_41
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1575
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2988d2eb35e2fb00800000000000000
+      internalID: 861002524152858927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_42
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1546
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d11d6110562c2550800000000000000
+      internalID: 6137322517530743250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_43
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1576
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af24207603bc2e30800000000000000
+      internalID: 4480152569559396263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_44
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1557
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff01593d9be134d0800000000000000
+      internalID: -3156482803306000394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_45
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1556
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c220691a7b6cf82a0800000000000000
+      internalID: -6732944425903324628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_46
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1558
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff77f2f720c9a1f0800000000000000
+      internalID: -1033083361692254210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_47
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1556
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179d787daa97df840800000000000000
+      internalID: 5259493714506013041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_48
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1557
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08858cc8677444e10800000000000000
+      internalID: 2180946694047815808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_49
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1559
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668026acea78cdb10800000000000000
+      internalID: 2007628718689880166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_50
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1559
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05365b5bb45fc9c00800000000000000
+      internalID: 908870930341913424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_51
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1558
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8770ef3b0d1e3bc10800000000000000
+      internalID: 2068244940382406520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1450
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ba19bd7d2462c80800000000000000
+      internalID: -8347911364415476846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_53
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6406294cc497760a0800000000000000
+      internalID: -6888403734417481658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_54
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1375
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563f4124f08033a70800000000000000
+      internalID: 8805390558065652581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_55
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1453
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f497c1d1b58e0390800000000000000
+      internalID: -7850190101684972296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_56
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1373
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49372d0162b7cb80800000000000000
+      internalID: -8374528852169901748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_57
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1442
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d74e4d0f977f9210800000000000000
+      internalID: 1341922738986436563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_58
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1373
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755fc0f207703d380800000000000000
+      internalID: -8947799856247933609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_59
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1453
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4fd9814d1fcf350800000000000000
+      internalID: 6051977892527469772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_60
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1370
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86028b0dce813d1d0800000000000000
+      internalID: -3327288294303588248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_61
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1380
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce2fbe4b1a87f6e0800000000000000
+      internalID: -1803821275848692028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1434
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f098abfb24a7cf00800000000000000
+      internalID: 1137057939747016944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_63
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1432
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb442bbff0805d140800000000000000
+      internalID: 4743706647244981439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_64
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1384
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbade0e14c097840800000000000000
+      internalID: 5222218719998880753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_65
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1438
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83917072e0c21120800000000000000
+      internalID: 2383179231614047114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_66
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1381
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a62b863563eec5d0800000000000000
+      internalID: -3040242674582215006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_67
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1380
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112ca62350ccd1320800000000000000
+      internalID: 2530402888344846865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_68
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1385
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db691b271feaf2630800000000000000
+      internalID: 3904531753988101821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_69
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1390
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7193cad3930ddcc30800000000000000
+      internalID: 4381386956767770903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_70
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1435
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b575a237b04a5350800000000000000
+      internalID: 6006184208624874930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_71
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1390
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e6c3c91ed974580800000000000000
+      internalID: -8842925751004270956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_72
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1441
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a2010edfb372a0800000000000000
+      internalID: -6740833257022903864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_73
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1439
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4f876db139dbe80800000000000000
+      internalID: -8161205201953819465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_74
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1433
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662cd42255d8e04f0800000000000000
+      internalID: -860595081993928090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_75
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1440
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247004c78748793b0800000000000000
+      internalID: -5505786366421629118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_76
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1384
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15746feac8ae4dc0800000000000000
+      internalID: -3652796658197695203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_77
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1380
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e48cac5a4657240800000000000000
+      internalID: 4788844442012896823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_78
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1421
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59be9f7cf691ad80800000000000000
+      internalID: -8241139831894263458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1387
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ed8fe6baace0ad0800000000000000
+      internalID: -2734025086117290395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_80
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1389
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29341bd55a3429750800000000000000
+      internalID: 6310180405420049298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_81
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1389
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba9e7cff37b52500800000000000000
+      internalID: 370904029774912186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_82
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1428
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34772d70577c9e500800000000000000
+      internalID: 426090945219557187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_83
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1425
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5d64c6b1355d730800000000000000
+      internalID: 4023213219371210229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_84
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1391
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fc9071cbed0dbe0800000000000000
+      internalID: -1454417780218933436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_85
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1424
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6777b868646581be0800000000000000
+      internalID: -1506359214450444426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_86
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1424
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80f159b3018bd1c0800000000000000
+      internalID: -4477843551495786357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_87
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1427
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a86a36773a13ed0800000000000000
+      internalID: -2435986190262433182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_88
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1388
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c522e0665cd4b7b70800000000000000
+      internalID: 8897790999016645212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_89
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1388
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8ba3ba7c7468460800000000000000
+      internalID: 7243555973568837886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_90
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1424
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea8ab4de38f3d8b0800000000000000
+      internalID: -5128482601904207134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_91
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1396
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1681cc16e59cd590800000000000000
+      internalID: -7648073251624483301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_92
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1392
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc9e51273b1b39b0800000000000000
+      internalID: -5099452229469954854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_93
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1392
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38971a4dbb4f6a5e0800000000000000
+      internalID: -1898561105326671485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_94
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1399
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab221c59302bbe1f0800000000000000
+      internalID: -1014521562574806342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_95
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1399
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30dff8352a2c9a8d0800000000000000
+      internalID: -2834520488010580733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_96
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1391
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87b78084dfd10ee0800000000000000
+      internalID: -1296509113923553398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_97
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1399
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd52ea029207550800000000000000
+      internalID: 6156465910952877496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_98
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31cf6fc13e525470800000000000000
+      internalID: 8381865424516530493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_99
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1375
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694f7c17f71901c90800000000000000
+      internalID: -7201095827609619306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_100
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1387
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04222f3a0ac555220800000000000000
+      internalID: 2473985415325033024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_101
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1386
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fccde0b94f8e1180800000000000000
+      internalID: -9142712646851769103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_102
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1376
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdd8f81fc0d74d70800000000000000
+      internalID: 9027413565983219142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_103
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1385
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5f26d8fa34c5650800000000000000
+      internalID: 6222923206389593544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_104
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1383
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bf9c1b31abeaf30800000000000000
+      internalID: 4588809664087063428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_105
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1374
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaa8e698cc91f540800000000000000
+      internalID: 5039981843343518398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_106
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1384
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc7765204e368800800000000000000
+      internalID: 614246844409019642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_107
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1367
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d916908290dff2c40800000000000000
+      internalID: 5489884686556160413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_108
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1371
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df179962821d0e270800000000000000
+      internalID: 8277846085483459069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_109
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1370
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6748f93b11c44ca90800000000000000
+      internalID: -7294621857521630090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_110
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1370
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7f708c3101eec70800000000000000
+      internalID: 9002150382306588667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_111
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 969
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab383b3736f66c0800000000000000
+      internalID: -4147987383200794105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_112
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 972
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eca7c500ee7fb20800000000000000
+      internalID: 3168262548197396066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_113
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 971
+        width: 62
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383a2400117077360800000000000000
+      internalID: 7167205101583639427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_114
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 971
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcda89947cb02540800000000000000
+      internalID: 4981188396850011381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_115
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 970
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efe4e124c7f34530800000000000000
+      internalID: 3838183729204096997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_116
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 971
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aaff6f222b16740800000000000000
+      internalID: 5143588112676399763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_117
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 970
+        width: 66
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16820d2c6f61fe7c0800000000000000
+      internalID: -4039985091641857951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_118
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 970
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5a8ba4e79c42a30800000000000000
+      internalID: 4189695097618081273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_119
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 969
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19864b620467c5740800000000000000
+      internalID: 5142114892449605777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_120
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 970
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcace047c43426f0800000000000000
+      internalID: -710384810825306888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_121
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 970
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fa1fa1375cbdca0800000000000000
+      internalID: -5990977781122355318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_122
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 669
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a380288cf2749920800000000000000
+      internalID: 2996146081049379745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_123
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 672
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c16e7918bf413660800000000000000
+      internalID: 7363754517847761353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_124
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 671
+        width: 62
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeddc794f7291230800000000000000
+      internalID: 3609960507786518176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_125
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 671
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4704515404c4a64c0800000000000000
+      internalID: -4293535455823708044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_126
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 670
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a476661ce50f7d1d0800000000000000
+      internalID: -3325925510027516086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_127
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 671
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12316655e26c7d4a0800000000000000
+      internalID: -6568563629193030879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_128
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 670
+        width: 66
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f72c911abf5ea510800000000000000
+      internalID: 1562291373508143096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_129
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 670
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0004b4d7c7ab860800000000000000
+      internalID: 7546481003187929339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_130
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 669
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8de2d7fffbdc870800000000000000
+      internalID: 8704824758814824614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_131
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 670
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dbaaac0eade24c0800000000000000
+      internalID: -4310267134339269293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_132
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 670
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8c8ea4ff0a1dae0800000000000000
+      internalID: -1526261780368013104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 374
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fdc9a703d378fb0800000000000000
+      internalID: -4645677212184551622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_134
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 377
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5474f457cc4f3c60800000000000000
+      internalID: 7800037498636498015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_135
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 376
+        width: 62
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdd18f835a7a3d30800000000000000
+      internalID: 4411973284271349195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_136
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 376
+        width: 67
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a062603f3f53f2a90800000000000000
+      internalID: -7336585946092657142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_137
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 375
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3e9f8d9cc8b1a90800000000000000
+      internalID: -7342119968940891232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_138
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 376
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281dfb976f95ca750800000000000000
+      internalID: 6317523292433404290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_139
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 375
+        width: 66
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03cb9332ba7c3510800000000000000
+      internalID: 1530232879187739402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_140
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 375
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8896f41c0d54341c0800000000000000
+      internalID: -4520692838051124856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_141
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 374
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c89dd8926d665940800000000000000
+      internalID: 5284531483004737733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_142
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 375
+        width: 63
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d2db85a6e7a9340800000000000000
+      internalID: 4871344942175038748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_143
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 375
+        width: 68
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b71484dde0c2d670800000000000000
+      internalID: 8562117969289942966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_keys-water-rope-candleflame-syringes_144
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed692828592523e0800000000000000
+      internalID: -2079210194353951261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite_sheet_keys-water-rope-candleflame-syringes_0: 2664753468357723718
+      sprite_sheet_keys-water-rope-candleflame-syringes_1: 6794102235424033284
+      sprite_sheet_keys-water-rope-candleflame-syringes_10: 1500848829223722730
+      sprite_sheet_keys-water-rope-candleflame-syringes_100: 2473985415325033024
+      sprite_sheet_keys-water-rope-candleflame-syringes_101: -9142712646851769103
+      sprite_sheet_keys-water-rope-candleflame-syringes_102: 9027413565983219142
+      sprite_sheet_keys-water-rope-candleflame-syringes_103: 6222923206389593544
+      sprite_sheet_keys-water-rope-candleflame-syringes_104: 4588809664087063428
+      sprite_sheet_keys-water-rope-candleflame-syringes_105: 5039981843343518398
+      sprite_sheet_keys-water-rope-candleflame-syringes_106: 614246844409019642
+      sprite_sheet_keys-water-rope-candleflame-syringes_107: 5489884686556160413
+      sprite_sheet_keys-water-rope-candleflame-syringes_108: 8277846085483459069
+      sprite_sheet_keys-water-rope-candleflame-syringes_109: -7294621857521630090
+      sprite_sheet_keys-water-rope-candleflame-syringes_11: 5300904310634964567
+      sprite_sheet_keys-water-rope-candleflame-syringes_110: 9002150382306588667
+      sprite_sheet_keys-water-rope-candleflame-syringes_111: -4147987383200794105
+      sprite_sheet_keys-water-rope-candleflame-syringes_112: 3168262548197396066
+      sprite_sheet_keys-water-rope-candleflame-syringes_113: 7167205101583639427
+      sprite_sheet_keys-water-rope-candleflame-syringes_114: 4981188396850011381
+      sprite_sheet_keys-water-rope-candleflame-syringes_115: 3838183729204096997
+      sprite_sheet_keys-water-rope-candleflame-syringes_116: 5143588112676399763
+      sprite_sheet_keys-water-rope-candleflame-syringes_117: -4039985091641857951
+      sprite_sheet_keys-water-rope-candleflame-syringes_118: 4189695097618081273
+      sprite_sheet_keys-water-rope-candleflame-syringes_119: 5142114892449605777
+      sprite_sheet_keys-water-rope-candleflame-syringes_12: 6217541961153981368
+      sprite_sheet_keys-water-rope-candleflame-syringes_120: -710384810825306888
+      sprite_sheet_keys-water-rope-candleflame-syringes_121: -5990977781122355318
+      sprite_sheet_keys-water-rope-candleflame-syringes_122: 2996146081049379745
+      sprite_sheet_keys-water-rope-candleflame-syringes_123: 7363754517847761353
+      sprite_sheet_keys-water-rope-candleflame-syringes_124: 3609960507786518176
+      sprite_sheet_keys-water-rope-candleflame-syringes_125: -4293535455823708044
+      sprite_sheet_keys-water-rope-candleflame-syringes_126: -3325925510027516086
+      sprite_sheet_keys-water-rope-candleflame-syringes_127: -6568563629193030879
+      sprite_sheet_keys-water-rope-candleflame-syringes_128: 1562291373508143096
+      sprite_sheet_keys-water-rope-candleflame-syringes_129: 7546481003187929339
+      sprite_sheet_keys-water-rope-candleflame-syringes_13: -6790785903971409268
+      sprite_sheet_keys-water-rope-candleflame-syringes_130: 8704824758814824614
+      sprite_sheet_keys-water-rope-candleflame-syringes_131: -4310267134339269293
+      sprite_sheet_keys-water-rope-candleflame-syringes_132: -1526261780368013104
+      sprite_sheet_keys-water-rope-candleflame-syringes_133: -4645677212184551622
+      sprite_sheet_keys-water-rope-candleflame-syringes_134: 7800037498636498015
+      sprite_sheet_keys-water-rope-candleflame-syringes_135: 4411973284271349195
+      sprite_sheet_keys-water-rope-candleflame-syringes_136: -7336585946092657142
+      sprite_sheet_keys-water-rope-candleflame-syringes_137: -7342119968940891232
+      sprite_sheet_keys-water-rope-candleflame-syringes_138: 6317523292433404290
+      sprite_sheet_keys-water-rope-candleflame-syringes_139: 1530232879187739402
+      sprite_sheet_keys-water-rope-candleflame-syringes_14: -5349151886413177304
+      sprite_sheet_keys-water-rope-candleflame-syringes_140: -4520692838051124856
+      sprite_sheet_keys-water-rope-candleflame-syringes_141: 5284531483004737733
+      sprite_sheet_keys-water-rope-candleflame-syringes_142: 4871344942175038748
+      sprite_sheet_keys-water-rope-candleflame-syringes_143: 8562117969289942966
+      sprite_sheet_keys-water-rope-candleflame-syringes_144: -2079210194353951261
+      sprite_sheet_keys-water-rope-candleflame-syringes_15: -2093091468232012340
+      sprite_sheet_keys-water-rope-candleflame-syringes_16: 7737851737204328769
+      sprite_sheet_keys-water-rope-candleflame-syringes_17: -7736891216583707543
+      sprite_sheet_keys-water-rope-candleflame-syringes_18: 7115399568928431279
+      sprite_sheet_keys-water-rope-candleflame-syringes_19: -6667146087719968684
+      sprite_sheet_keys-water-rope-candleflame-syringes_2: -7408969559865643145
+      sprite_sheet_keys-water-rope-candleflame-syringes_20: 2855649736550849826
+      sprite_sheet_keys-water-rope-candleflame-syringes_21: 6675452936093597908
+      sprite_sheet_keys-water-rope-candleflame-syringes_22: 5633464213280995100
+      sprite_sheet_keys-water-rope-candleflame-syringes_23: -3175947585072441028
+      sprite_sheet_keys-water-rope-candleflame-syringes_24: 8241905714458405273
+      sprite_sheet_keys-water-rope-candleflame-syringes_25: 1141203657434666178
+      sprite_sheet_keys-water-rope-candleflame-syringes_26: 2016983226016739869
+      sprite_sheet_keys-water-rope-candleflame-syringes_27: 2756451012935191135
+      sprite_sheet_keys-water-rope-candleflame-syringes_28: -2589072293244852890
+      sprite_sheet_keys-water-rope-candleflame-syringes_29: -8156322325472013686
+      sprite_sheet_keys-water-rope-candleflame-syringes_3: -3532871393620573129
+      sprite_sheet_keys-water-rope-candleflame-syringes_30: -9131030643390642403
+      sprite_sheet_keys-water-rope-candleflame-syringes_31: -7023117574173430161
+      sprite_sheet_keys-water-rope-candleflame-syringes_32: 667451118315268385
+      sprite_sheet_keys-water-rope-candleflame-syringes_33: 8823694043856229901
+      sprite_sheet_keys-water-rope-candleflame-syringes_34: 8482210514836020093
+      sprite_sheet_keys-water-rope-candleflame-syringes_35: 8128276086645527977
+      sprite_sheet_keys-water-rope-candleflame-syringes_36: 840829952697107485
+      sprite_sheet_keys-water-rope-candleflame-syringes_37: -8764536621703613568
+      sprite_sheet_keys-water-rope-candleflame-syringes_38: 3166156260358537681
+      sprite_sheet_keys-water-rope-candleflame-syringes_39: 8607733351878148881
+      sprite_sheet_keys-water-rope-candleflame-syringes_4: -3658749174537320983
+      sprite_sheet_keys-water-rope-candleflame-syringes_40: -6237273044979549026
+      sprite_sheet_keys-water-rope-candleflame-syringes_41: 861002524152858927
+      sprite_sheet_keys-water-rope-candleflame-syringes_42: 6137322517530743250
+      sprite_sheet_keys-water-rope-candleflame-syringes_43: 4480152569559396263
+      sprite_sheet_keys-water-rope-candleflame-syringes_44: -3156482803306000394
+      sprite_sheet_keys-water-rope-candleflame-syringes_45: -6732944425903324628
+      sprite_sheet_keys-water-rope-candleflame-syringes_46: -1033083361692254210
+      sprite_sheet_keys-water-rope-candleflame-syringes_47: 5259493714506013041
+      sprite_sheet_keys-water-rope-candleflame-syringes_48: 2180946694047815808
+      sprite_sheet_keys-water-rope-candleflame-syringes_49: 2007628718689880166
+      sprite_sheet_keys-water-rope-candleflame-syringes_5: -8192967024085143878
+      sprite_sheet_keys-water-rope-candleflame-syringes_50: 908870930341913424
+      sprite_sheet_keys-water-rope-candleflame-syringes_51: 2068244940382406520
+      sprite_sheet_keys-water-rope-candleflame-syringes_52: -8347911364415476846
+      sprite_sheet_keys-water-rope-candleflame-syringes_53: -6888403734417481658
+      sprite_sheet_keys-water-rope-candleflame-syringes_54: 8805390558065652581
+      sprite_sheet_keys-water-rope-candleflame-syringes_55: -7850190101684972296
+      sprite_sheet_keys-water-rope-candleflame-syringes_56: -8374528852169901748
+      sprite_sheet_keys-water-rope-candleflame-syringes_57: 1341922738986436563
+      sprite_sheet_keys-water-rope-candleflame-syringes_58: -8947799856247933609
+      sprite_sheet_keys-water-rope-candleflame-syringes_59: 6051977892527469772
+      sprite_sheet_keys-water-rope-candleflame-syringes_6: 902338472494916890
+      sprite_sheet_keys-water-rope-candleflame-syringes_60: -3327288294303588248
+      sprite_sheet_keys-water-rope-candleflame-syringes_61: -1803821275848692028
+      sprite_sheet_keys-water-rope-candleflame-syringes_62: 1137057939747016944
+      sprite_sheet_keys-water-rope-candleflame-syringes_63: 4743706647244981439
+      sprite_sheet_keys-water-rope-candleflame-syringes_64: 5222218719998880753
+      sprite_sheet_keys-water-rope-candleflame-syringes_65: 2383179231614047114
+      sprite_sheet_keys-water-rope-candleflame-syringes_66: -3040242674582215006
+      sprite_sheet_keys-water-rope-candleflame-syringes_67: 2530402888344846865
+      sprite_sheet_keys-water-rope-candleflame-syringes_68: 3904531753988101821
+      sprite_sheet_keys-water-rope-candleflame-syringes_69: 4381386956767770903
+      sprite_sheet_keys-water-rope-candleflame-syringes_7: -8986843221884342498
+      sprite_sheet_keys-water-rope-candleflame-syringes_70: 6006184208624874930
+      sprite_sheet_keys-water-rope-candleflame-syringes_71: -8842925751004270956
+      sprite_sheet_keys-water-rope-candleflame-syringes_72: -6740833257022903864
+      sprite_sheet_keys-water-rope-candleflame-syringes_73: -8161205201953819465
+      sprite_sheet_keys-water-rope-candleflame-syringes_74: -860595081993928090
+      sprite_sheet_keys-water-rope-candleflame-syringes_75: -5505786366421629118
+      sprite_sheet_keys-water-rope-candleflame-syringes_76: -3652796658197695203
+      sprite_sheet_keys-water-rope-candleflame-syringes_77: 4788844442012896823
+      sprite_sheet_keys-water-rope-candleflame-syringes_78: -8241139831894263458
+      sprite_sheet_keys-water-rope-candleflame-syringes_79: -2734025086117290395
+      sprite_sheet_keys-water-rope-candleflame-syringes_8: 4312543141853260556
+      sprite_sheet_keys-water-rope-candleflame-syringes_80: 6310180405420049298
+      sprite_sheet_keys-water-rope-candleflame-syringes_81: 370904029774912186
+      sprite_sheet_keys-water-rope-candleflame-syringes_82: 426090945219557187
+      sprite_sheet_keys-water-rope-candleflame-syringes_83: 4023213219371210229
+      sprite_sheet_keys-water-rope-candleflame-syringes_84: -1454417780218933436
+      sprite_sheet_keys-water-rope-candleflame-syringes_85: -1506359214450444426
+      sprite_sheet_keys-water-rope-candleflame-syringes_86: -4477843551495786357
+      sprite_sheet_keys-water-rope-candleflame-syringes_87: -2435986190262433182
+      sprite_sheet_keys-water-rope-candleflame-syringes_88: 8897790999016645212
+      sprite_sheet_keys-water-rope-candleflame-syringes_89: 7243555973568837886
+      sprite_sheet_keys-water-rope-candleflame-syringes_9: -4731476596810441545
+      sprite_sheet_keys-water-rope-candleflame-syringes_90: -5128482601904207134
+      sprite_sheet_keys-water-rope-candleflame-syringes_91: -7648073251624483301
+      sprite_sheet_keys-water-rope-candleflame-syringes_92: -5099452229469954854
+      sprite_sheet_keys-water-rope-candleflame-syringes_93: -1898561105326671485
+      sprite_sheet_keys-water-rope-candleflame-syringes_94: -1014521562574806342
+      sprite_sheet_keys-water-rope-candleflame-syringes_95: -2834520488010580733
+      sprite_sheet_keys-water-rope-candleflame-syringes_96: -1296509113923553398
+      sprite_sheet_keys-water-rope-candleflame-syringes_97: 6156465910952877496
+      sprite_sheet_keys-water-rope-candleflame-syringes_98: 8381865424516530493
+      sprite_sheet_keys-water-rope-candleflame-syringes_99: -7201095827609619306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

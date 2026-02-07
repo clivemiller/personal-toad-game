@@ -11,12 +11,18 @@ public class InSceneSetManager : MonoBehaviour
     [Tooltip("List of prefab instances to manage. The first one will be the default visible set.")]
     private List<GameObject> sets = new List<GameObject>();
 
+    [SerializeField]
+    [Tooltip("All soundCleaners")]
+    private List<SoundCleaner> soundCleaners = new List<SoundCleaner>();
+
+    private Dictionary<string, SoundCleaner> soundCleanersByName = new Dictionary<string, SoundCleaner>();
     private Dictionary<string, GameObject> setsByName = new Dictionary<string, GameObject>();
     private GameObject currentVisibleSet;
 
     private void Awake()
     {
         InitializeSets();
+        InitializeSoundManagers();
     }
 
     /// <summary>
@@ -44,6 +50,32 @@ public class InSceneSetManager : MonoBehaviour
         }
     }
 
+    private void InitializeSoundManagers()
+    {
+        soundCleanersByName.Clear();
+
+        // Index all sets by name
+        foreach (SoundCleaner soundCleaner in soundCleaners)
+        {
+            if (soundCleaner != null)
+            {
+                soundCleanersByName[soundCleaner.name] = soundCleaner;
+            }
+        }
+    }
+
+    private void CleanSound(string setName)
+    {
+        if (soundCleanersByName.TryGetValue(setName, out SoundCleaner cleaner))
+        {
+            if (cleaner != null)
+            {
+                cleaner.Clean();    
+            }
+        }
+    }
+
+
     /// <summary>
     /// Switches to a different set by name, hiding the currently visible set.
     /// </summary>
@@ -64,6 +96,8 @@ public class InSceneSetManager : MonoBehaviour
         {
             return true;
         }
+
+        CleanSound(currentVisibleSet.name);
 
         // Hide the currently visible set
         if (currentVisibleSet != null)
