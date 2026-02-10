@@ -13,6 +13,16 @@ public class RouletteSoundManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    private void OnDisable()
+    {
+        StopRevolverSpin();
+    }
+
+    private void OnDestroy()
+    {
+        StopRevolverSpin();
+    }
+
     public void PlayGunShootSound()
     {
         PersistentOneShotAudio.Play(gun_shoot, audioSource);
@@ -58,6 +68,12 @@ public class RouletteSoundManager : MonoBehaviour
         {
             audioSource.Stop();
         }
-        audioSource.volume = 1f;
+
+        if (audioSource != null)
+        {
+            audioSource.loop = false;
+            audioSource.clip = null;
+            audioSource.volume = 1f;
+        }
     }
 }

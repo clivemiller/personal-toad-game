@@ -8,8 +8,8 @@ using UnityEngine;
 public class InSceneSetManager : MonoBehaviour
 {
     [SerializeField]
-    [Tooltip("List of prefab instances to manage. The first one will be the default visible set.")]
-    private List<GameObject> sets = new List<GameObject>();
+    [Tooltip("Configured sets to manage. The first one will be the default visible set.")]
+    private List<InSceneSetConfig> configuredSets = new List<InSceneSetConfig>();
 
     [SerializeField]
     [Tooltip("All soundCleaners")]
@@ -17,7 +17,17 @@ public class InSceneSetManager : MonoBehaviour
 
     private Dictionary<string, SoundCleaner> soundCleanersByName = new Dictionary<string, SoundCleaner>();
     private Dictionary<string, GameObject> setsByName = new Dictionary<string, GameObject>();
+    private Dictionary<string, InSceneSetDisableHook> disableHooksBySetName = new Dictionary<string, InSceneSetDisableHook>();
     private GameObject currentVisibleSet;
+
+    [System.Serializable]
+    private class InSceneSetConfig
+    {
+        public GameObject set;
+
+        [Tooltip("Optional script to run when this set is disabled (e.g., to reset state).")]
+        public InSceneSetDisableHook onDisabled;
+    }
 
     private void Awake()
     {
@@ -31,22 +41,40 @@ public class InSceneSetManager : MonoBehaviour
     private void InitializeSets()
     {
         setsByName.Clear();
+        disableHooksBySetName.Clear();
 
         // Index all sets by name
-        foreach (GameObject set in sets)
+        if (configuredSets != null)
         {
-            if (set != null)
+            foreach (InSceneSetConfig config in configuredSets)
             {
-                setsByName[set.name] = set;
-                set.SetActive(false); // Hide all sets initially
+                if (config != null && config.set != null)
+                {
+                    setsByName[config.set.name] = config.set;
+                    disableHooksBySetName[config.set.name] = config.onDisabled;
+                    config.set.SetActive(false); // Hide all sets initially
+                }
             }
         }
 
         // Show the default set (first in the list)
-        if (sets.Count > 0 && sets[0] != null)
+        if (configuredSets != null && configuredSets.Count > 0 && configuredSets[0] != null && configuredSets[0].set != null)
         {
-            sets[0].SetActive(true);
-            currentVisibleSet = sets[0];
+            configuredSets[0].set.SetActive(true);
+            currentVisibleSet = configuredSets[0].set;
+        }
+    }
+
+    private void RunDisableHookForSet(string setName)
+    {
+        if (string.IsNullOrWhiteSpace(setName))
+        {
+            return;
+        }
+
+        if (disableHooksBySetName.TryGetValue(setName, out InSceneSetDisableHook hook) && hook != null)
+        {
+            hook.Run();
         }
     }
 
@@ -97,7 +125,11 @@ public class InSceneSetManager : MonoBehaviour
             return true;
         }
 
-        CleanSound(currentVisibleSet.name);
+        if (currentVisibleSet != null)
+        {
+            CleanSound(currentVisibleSet.name);
+            RunDisableHookForSet(currentVisibleSet.name);
+        }
 
         // Hide the currently visible set
         if (currentVisibleSet != null)
@@ -119,13 +151,13 @@ public class InSceneSetManager : MonoBehaviour
     /// <returns>True if the switch was successful, false otherwise.</returns>
     public bool SwitchToSetByIndex(int index)
     {
-        if (index < 0 || index >= sets.Count)
+        if (configuredSets == null || index < 0 || index >= configuredSets.Count)
         {
             Debug.LogWarning($"InSceneSetManager: Index {index} is out of range.");
             return false;
         }
 
-        GameObject targetSet = sets[index];
+        GameObject targetSet = configuredSets[index].set;
         if (targetSet == null)
         {
             Debug.LogWarning($"InSceneSetManager: Set at index {index} is null.");

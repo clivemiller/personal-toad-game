@@ -308,7 +308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972528941530223135, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4030108923311682214, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       propertyPath: clickCamera
@@ -318,6 +318,14 @@ PrefabInstance:
       propertyPath: clickCamera
       value: 
       objectReference: {fileID: 263738133}
+    - target: {fileID: 6382743317132477098, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382743317132477098, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.96
+      objectReference: {fileID: 0}
     - target: {fileID: 7011889459729384519, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.16923
@@ -366,6 +374,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1972528941530223135, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 377371717}
+    - targetCorrespondingSourceObject: {fileID: 1972528941530223135, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 377371718}
     - targetCorrespondingSourceObject: {fileID: 5109078260583789490, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 244234633}
@@ -378,6 +389,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1728407043}
+    - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1728407047}
   m_SourcePrefab: {fileID: 100100000, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
 --- !u!1 &244234630 stripped
 GameObject:
@@ -419,6 +433,17 @@ MonoBehaviour:
   hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
+--- !u!114 &244234634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5863832745200002039, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+  m_PrefabInstance: {fileID: 244234629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2e67e96aa7b7a45b83054d42972588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouletteScript
 --- !u!1 &263738131
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +599,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundCleaner
   audioSource: {fileID: 1744566786}
+--- !u!114 &377371718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377371715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac60f11cb812c84e8297692cc9ca05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetRouletteState
+  rouletteScript: {fileID: 244234634}
 --- !u!1001 &404084570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1416,11 +1454,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9501254c104f0c14685b386e1bf0ab2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InSceneSetManager
-  sets:
-  - {fileID: 752732756}
-  - {fileID: 1630797312}
-  - {fileID: 46193298}
-  - {fileID: 377371715}
+  configuredSets:
+  - set: {fileID: 752732756}
+    onDisabled: {fileID: 0}
+  - set: {fileID: 1630797312}
+    onDisabled: {fileID: 0}
+  - set: {fileID: 46193298}
+    onDisabled: {fileID: 0}
+  - set: {fileID: 377371715}
+    onDisabled: {fileID: 377371718}
   soundCleaners:
   - {fileID: 377371717}
 --- !u!4 &873095831
@@ -1557,7 +1599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 676412829241967079, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1064592627302143168, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       propertyPath: clickCamera
@@ -1916,6 +1958,18 @@ MonoBehaviour:
   hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
+--- !u!114 &1728407047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728407037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d753028cb087b2743814c4c7ef8d47d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StopButton
 --- !u!82 &1744566786 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5480439203019766565, guid: 20394f46d76a0f243b86163c551921cc, type: 3}

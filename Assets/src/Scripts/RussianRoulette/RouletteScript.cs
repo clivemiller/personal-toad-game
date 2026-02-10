@@ -6,18 +6,50 @@ public class RouletteScript : MonoBehaviour
     SceneTransition sceneTransition;
     public RouletteSoundManager RouletteSoundManager;  
     public int GameState = 0;  // 0 = not started, 1 = spinning, 2 = sweating, 3 = pulling trigger, 3 = dead, 4 = survived
+
+    private void EnsureReferences()
+    {
+        if (visuals == null)
+        {
+            visuals = GetComponent<Animator>();
+        }
+
+        if (sceneTransition == null)
+        {
+            sceneTransition = GetComponent<SceneTransition>();
+        }
+
+        if (RouletteSoundManager == null)
+        {
+            RouletteSoundManager = FindFirstObjectByType<RouletteSoundManager>();
+        }
+    }
+
+    public void Reset()
+    {
+        EnsureReferences();
+        CancelInvoke();
+
+        if (RouletteSoundManager != null)
+        {
+            RouletteSoundManager.StopRevolverSpin();
+        }
+
+        GameState = 0;
+        ActionUponGameState();
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        visuals = GetComponent<Animator>();
-        sceneTransition = GetComponent<SceneTransition>();
-        RouletteSoundManager = FindFirstObjectByType<RouletteSoundManager>();
+        EnsureReferences();
 
         ActionUponGameState();
     }
 
     public void ActionUponGameState()
     {
+        EnsureReferences();
+
         switch (GameState)
         {
             case 0:
@@ -35,6 +67,12 @@ public class RouletteScript : MonoBehaviour
                 break;
             case 2:
                 // Sweating
+                if (RouletteSoundManager != null)
+                {
+                    // Defensive: if the spin stop animation event didn't fire,
+                    // ensure the looping spin audio never carries into sweat/other states.
+                    RouletteSoundManager.StopRevolverSpin();
+                }
                 visuals.SetTrigger("sweat");
                 break;
             case 3:
@@ -64,6 +102,13 @@ public class RouletteScript : MonoBehaviour
 
                 break;
             case 6:
+                // Exiting the roulette game (e.g., Stop button). Make sure no
+                // scheduled state changes or looping audio continues after we leave.
+                CancelInvoke();
+                if (RouletteSoundManager != null)
+                {
+                    RouletteSoundManager.StopRevolverSpin();
+                }
                 SceneTransition.LoadSceneByName("Desk");
 
                 break;
