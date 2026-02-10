@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 /// <summary>
 /// Simple hover effect that:
-/// - enlarges slightly on hover
+/// - switches cursor mode on hover
 /// - plays a configurable sound
 /// 
 /// Requires a Collider2D (BoxCollider2D recommended) for hover detection.
@@ -16,12 +16,9 @@ public class ButtonEffect : MonoBehaviour
     [SerializeField]
     private Camera hoverCamera;
 
-    [Header("Hover Animation")]
-    private const float transitionSeconds = 0.12f;
-
-    [Header("Hover Strength")]
+    [Header("Cursor")]
     [SerializeField]
-    private float hoverScaleMultiplier = 1.06f;
+    private CursorManager.CursorState hoverCursorState = CursorManager.CursorState.CanGrab;
 
     [Header("Sound")]
     [SerializeField]
@@ -32,17 +29,12 @@ public class ButtonEffect : MonoBehaviour
 
     private Collider2D col2D;
 
-    private Vector3 baseScale;
-    private Vector3 targetScale;
-    private Vector3 scaleVelocity;
-
     private bool isHovered;
+    private CursorManager.CursorState cursorStateBeforeHover;
 
     private void Awake()
     {
         col2D = GetComponent<Collider2D>();
-        baseScale = transform.localScale;
-        targetScale = baseScale;
 
         if (hoverCamera == null)
         {
@@ -64,22 +56,17 @@ public class ButtonEffect : MonoBehaviour
 
     private void OnDisable()
     {
-        // Reset visuals when object is disabled
-        transform.localScale = baseScale;
+        if (isHovered)
+        {
+            RestoreCursorStateIfNeeded();
+        }
+
         isHovered = false;
     }
 
     private void Update()
     {
         UpdateHoverState();
-
-        float smoothTime = Mathf.Max(0.0001f, transitionSeconds);
-        transform.localScale = Vector3.SmoothDamp(transform.localScale, targetScale, ref scaleVelocity, smoothTime);
-    }
-
-    private void SetHovered(bool hovered)
-    {
-        targetScale = hovered ? baseScale * hoverScaleMultiplier : baseScale;
     }
 
     private void UpdateHoverState()
@@ -109,12 +96,37 @@ public class ButtonEffect : MonoBehaviour
         isHovered = hoveredNow;
         if (isHovered)
         {
-            SetHovered(true);
+            SwitchCursorForHover();
             PlayHoverSound();
         }
         else
         {
-            SetHovered(false);
+            RestoreCursorStateIfNeeded();
+        }
+    }
+
+    private void SwitchCursorForHover()
+    {
+        if (CursorManager.Instance == null)
+        {
+            return;
+        }
+
+        cursorStateBeforeHover = CursorManager.Instance.CurrentState;
+        CursorManager.Instance.Switch(hoverCursorState);
+    }
+
+    private void RestoreCursorStateIfNeeded()
+    {
+        if (CursorManager.Instance == null)
+        {
+            return;
+        }
+
+        // Avoid stomping over other systems: only restore if we're still in our hover state.
+        if (CursorManager.Instance.CurrentState == hoverCursorState)
+        {
+            CursorManager.Instance.Switch(cursorStateBeforeHover);
         }
     }
 

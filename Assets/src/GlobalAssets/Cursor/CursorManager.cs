@@ -49,7 +49,13 @@ public sealed class CursorManager : MonoBehaviour
     [SerializeField]
     private float canClickRotationSpeedDegreesPerSecond = 180f;
 
+    [Header("Can Click Scale")]
+    [SerializeField]
+    private float canClickScaleMultiplier = 2f;
+
     public CursorState CurrentState { get; private set; }
+
+    private Vector3 baseCursorLocalScale = Vector3.one;
 
     private void Update()
     {
@@ -118,6 +124,11 @@ public sealed class CursorManager : MonoBehaviour
             UnityEngine.Cursor.visible = false;
         }
 
+        if (cursorSpriteRenderer != null)
+        {
+            baseCursorLocalScale = cursorSpriteRenderer.transform.localScale;
+        }
+
         ApplyState(initialState);
     }
 
@@ -139,6 +150,7 @@ public sealed class CursorManager : MonoBehaviour
         bool visible = state != CursorState.Invisible && nextSprite != null;
 
         ApplySprite(nextSprite, visible);
+        ApplyScale(state);
 
         switch (state)
         {
@@ -150,6 +162,17 @@ public sealed class CursorManager : MonoBehaviour
             case CursorState.IsGrabbing:
                 break;
         }
+    }
+
+    private void ApplyScale(CursorState state)
+    {
+        if (cursorSpriteRenderer == null)
+        {
+            return;
+        }
+
+        float multiplier = state == CursorState.CanClick ? Mathf.Max(0f, canClickScaleMultiplier) : 1f;
+        cursorSpriteRenderer.transform.localScale = baseCursorLocalScale * multiplier;
     }
 
     private Sprite GetSpriteForState(CursorState state)

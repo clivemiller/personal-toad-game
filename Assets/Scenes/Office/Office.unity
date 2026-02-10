@@ -366,10 +366,59 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1972528941530223135, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 377371717}
+    - targetCorrespondingSourceObject: {fileID: 5109078260583789490, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 244234633}
+    - targetCorrespondingSourceObject: {fileID: 8977248927651023596, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 244234632}
     - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1728407042}
+    - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1728407043}
   m_SourcePrefab: {fileID: 100100000, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+--- !u!1 &244234630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8977248927651023596, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+  m_PrefabInstance: {fileID: 244234629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &244234631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5109078260583789490, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
+  m_PrefabInstance: {fileID: 244234629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &244234632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244234630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCamera: {fileID: 263738133}
+  hoverCursorState: 4
+  hoverSound: {fileID: 0}
+--- !u!114 &244234633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244234631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCamera: {fileID: 263738133}
+  hoverCursorState: 4
+  hoverSound: {fileID: 0}
 --- !u!1 &263738131
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
   hoverCamera: {fileID: 263738133}
-  hoverScaleMultiplier: 1.06
+  hoverCursorState: 2
   hoverSound: {fileID: 0}
 --- !u!114 &413766014
 MonoBehaviour:
@@ -1280,7 +1329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
   hoverCamera: {fileID: 263738133}
-  hoverScaleMultiplier: 1.06
+  hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!61 &456447608
 BoxCollider2D:
@@ -1401,6 +1450,10 @@ PrefabInstance:
       propertyPath: hoverCamera
       value: 
       objectReference: {fileID: 263738133}
+    - target: {fileID: 621254482326155371, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
+      propertyPath: hoverCursorState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1049051099004840841, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
       propertyPath: clickCamera
       value: 
@@ -1473,6 +1526,10 @@ PrefabInstance:
       propertyPath: hoverCamera
       value: 
       objectReference: {fileID: 263738133}
+    - target: {fileID: 7039616510046421587, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
+      propertyPath: hoverCursorState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8962840490806071510, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.87
@@ -1586,6 +1643,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3703557944350392732, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1622898884}
+    - targetCorrespondingSourceObject: {fileID: 3703557944350392732, guid: a1561483fdf1db140955b54226709ebc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1622898885}
   m_SourcePrefab: {fileID: 100100000, guid: a1561483fdf1db140955b54226709ebc, type: 3}
 --- !u!1 &1427122579 stripped
 GameObject:
@@ -1629,6 +1689,21 @@ MonoBehaviour:
   setManager: {fileID: 873095830}
   setName: Roulette
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
+--- !u!114 &1622898885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622898879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCamera: {fileID: 0}
+  hoverCursorState: 3
+  hoverSound: {fileID: 0}
 --- !u!1 &1630797312 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4021016217390309377, guid: 4bee11de8d66b0a448a2c026fe079fa2, type: 3}
@@ -1698,7 +1773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
   hoverCamera: {fileID: 263738133}
-  hoverScaleMultiplier: 1.01
+  hoverCursorState: 2
   hoverSound: {fileID: 0}
 --- !u!61 &1693626621
 BoxCollider2D:
@@ -1826,6 +1901,21 @@ MonoBehaviour:
   setManager: {fileID: 873095830}
   setName: Desk
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
+--- !u!114 &1728407043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728407037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCamera: {fileID: 263738133}
+  hoverCursorState: 4
+  hoverSound: {fileID: 0}
 --- !u!82 &1744566786 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5480439203019766565, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
