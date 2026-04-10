@@ -1,0 +1,59 @@
+{
+  "rootNodeId": "start",
+  "conditions": [
+    "LearnedName",
+    "AskedAboutAge"
+  ],
+  "nodes": [
+    {
+      "id": "start",
+      "speakerName": "witness",
+      "text": "Look how they massacred my boy",
+      "requiresCondition": "",
+      "setsCondition": "",
+      "options": [
+        { "text": "How old was he?", "targetId": "age", "requiresCondition": "" },
+        { "text": "What was his name?", "targetId": "name", "requiresCondition": "" },
+        { "text": "I know enough now.", "targetId": "secret", "requiresCondition": "LearnedName" },
+        { "text": "No thanks, I must be going.", "targetId": "end", "requiresCondition": "" }
+      ],
+      "nextId": ""
+    },
+    {
+      "id": "age",
+      "speakerName": "witness",
+      "text": "He was just a young lad. Barely 20 years old.",
+      "requiresCondition": "",
+      "setsCondition": "AskedAboutAge",
+      "options": [],
+      "nextId": "start"
+    },
+    {
+      "id": "name",
+      "speakerName": "witness",
+      "text": "His name was Bartholomew. A strong name.",
+      "requiresCondition": "",
+      "setsCondition": "LearnedName",
+      "options": [],
+      "nextId": "start"
+    },
+    {
+      "id": "secret",
+      "speakerName": "witness",
+      "text": "Ah, so you know of Bartholomew's secret. Then you must help me.",
+      "requiresCondition": "",
+      "setsCondition": "",
+      "options": [],
+      "nextId": "end"
+    },
+    {
+      "id": "end",
+      "speakerName": "witness",
+      "text": "Safe travels! Avenge my boy...",
+      "requiresCondition": "",
+      "setsCondition": "",
+      "options": [],
+      "nextId": ""
+    }
+  ]
+}
