@@ -136,7 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: Desk
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -388,10 +387,7 @@ PrefabInstance:
       addedObject: {fileID: 1728407042}
     - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1728407043}
-    - targetCorrespondingSourceObject: {fileID: 7357421188862994842, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1728407047}
+      addedObject: {fileID: 1728407046}
   m_SourcePrefab: {fileID: 100100000, guid: 20394f46d76a0f243b86163c551921cc, type: 3}
 --- !u!1 &244234630 stripped
 GameObject:
@@ -415,7 +411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!114 &244234633
@@ -430,7 +425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!114 &244234634 stripped
@@ -948,10 +942,10 @@ PrefabInstance:
       addedObject: {fileID: 413766014}
     - targetCorrespondingSourceObject: {fileID: 4753984485478668603, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 413766013}
+      addedObject: {fileID: 413766015}
     - targetCorrespondingSourceObject: {fileID: 4753984485478668603, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 413766015}
+      addedObject: {fileID: 413766016}
   m_SourcePrefab: {fileID: 100100000, guid: 18ddd33f09503df42ab0a2519470bd04, type: 3}
 --- !u!4 &413766010 stripped
 Transform:
@@ -1009,21 +1003,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.953808, y: 2.7703612}
   m_EdgeRadius: 0
---- !u!114 &413766013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413766011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
-  hoverCursorState: 2
-  hoverSound: {fileID: 0}
 --- !u!114 &413766014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,7 +1015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: CorkBoard
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -1099,6 +1077,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!114 &413766016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413766011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
+  hoverCursorState: 4
+  hoverSound: {fileID: 0}
 --- !u!1 &438056430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,7 +1342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f417146f60b1a6541ad7c505b46627b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneButtonHandler
-  clickCamera: {fileID: 263738133}
   doFadeClick: 1
   sceneName: MainMenuStyled
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -1366,7 +1357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!61 &456447608
@@ -1687,7 +1677,7 @@ PrefabInstance:
       addedObject: {fileID: 1622898884}
     - targetCorrespondingSourceObject: {fileID: 3703557944350392732, guid: a1561483fdf1db140955b54226709ebc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1622898885}
+      addedObject: {fileID: 1622898887}
   m_SourcePrefab: {fileID: 100100000, guid: a1561483fdf1db140955b54226709ebc, type: 3}
 --- !u!1 &1427122579 stripped
 GameObject:
@@ -1706,7 +1696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: Desk
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -1727,11 +1716,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: Roulette
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
---- !u!114 &1622898885
+--- !u!114 &1622898887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1743,7 +1731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 0}
   hoverCursorState: 3
   hoverSound: {fileID: 0}
 --- !u!1 &1630797312 stripped
@@ -1798,7 +1785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: CaseFiles
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -1814,7 +1800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
   hoverCursorState: 2
   hoverSound: {fileID: 0}
 --- !u!61 &1693626621
@@ -1939,11 +1924,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db0ea121d01a9649851b1900edf5117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetButtonHandler
-  clickCamera: {fileID: 263738133}
   setManager: {fileID: 873095830}
   setName: Desk
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
---- !u!114 &1728407043
+--- !u!114 &1728407046
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1955,21 +1939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 263738133}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
---- !u!114 &1728407047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728407037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d753028cb087b2743814c4c7ef8d47d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StopButton
 --- !u!82 &1744566786 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5480439203019766565, guid: 20394f46d76a0f243b86163c551921cc, type: 3}

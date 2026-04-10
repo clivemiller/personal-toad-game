@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
     public string sceneName = "";
+
     public void LoadScene()
     {
         if (string.IsNullOrWhiteSpace(sceneName))
@@ -12,21 +12,21 @@ public class SceneTransition : MonoBehaviour
             return;
         }
 
-        SceneManager.LoadSceneAsync(sceneName);
+        SceneTransitionManager.Load(sceneName, false);
     }
 
     static public void LoadSceneByName(string sceneNamePassedIn)
     {
-        SceneManager.LoadSceneAsync(sceneNamePassedIn);
+        SceneTransitionManager.Load(sceneNamePassedIn, false);
     }
 
     public void LoadSceneWithFade()
     {
-        SceneTransitionManager.LoadScene(sceneName);
+        SceneTransitionManager.Load(sceneName, true);
     }
 
     static public void LoadSceneByNameWithFade(string sceneNamePassedIn)
     {
-        SceneTransitionManager.LoadScene(sceneNamePassedIn);
+        SceneTransitionManager.Load(sceneNamePassedIn, true);
     }
 }

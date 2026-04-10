@@ -109,7 +109,7 @@ public class RouletteScript : MonoBehaviour
                 {
                     RouletteSoundManager.StopRevolverSpin();
                 }
-                SceneTransition.LoadSceneByName("Desk");
+                SceneTransitionManager.Load("Desk", false);
 
                 break;
             default:

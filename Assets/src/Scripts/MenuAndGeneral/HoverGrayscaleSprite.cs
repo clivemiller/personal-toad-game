@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 /// <summary>
 /// Makes a SpriteRenderer grayscale by default, and on hover:
@@ -11,13 +10,8 @@ using UnityEngine.InputSystem;
 /// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(SpriteRenderer))]
-[RequireComponent(typeof(Collider2D))]
-public sealed class HoverGrayscaleSprite : MonoBehaviour
+public sealed class HoverGrayscaleSprite : MouseInteractable2D
 {
-    [Header("Hover Detection")]
-    [SerializeField]
-    private Camera hoverCamera;
-
     [Header("Hover Animation")]
     private const float transitionSeconds = 0.12f;
     private const float hoverScaleMultiplier = 1.06f;
@@ -38,7 +32,6 @@ public sealed class HoverGrayscaleSprite : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Material runtimeMaterial;
-    private Collider2D col2D;
 
     private Vector3 baseScale;
     private Vector3 targetScale;
@@ -48,21 +41,14 @@ public sealed class HoverGrayscaleSprite : MonoBehaviour
     private float targetGrayscale;
     private float grayscaleVelocity;
 
-    private bool isHovered;
-
     private static readonly int GrayscaleAmountId = Shader.PropertyToID("_GrayscaleAmount");
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        col2D = GetComponent<Collider2D>();
         baseScale = transform.localScale;
         targetScale = baseScale;
-
-        if (hoverCamera == null)
-        {
-            hoverCamera = Camera.main;
-        }
 
         if (grayscaleShader == null)
         {
@@ -109,20 +95,18 @@ public sealed class HoverGrayscaleSprite : MonoBehaviour
 
 
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
-        // Reset visuals when object is disabled
+        base.OnDisable();
         transform.localScale = baseScale;
         currentGrayscale = grayscaleWhenNotHovered;
         targetGrayscale = grayscaleWhenNotHovered;
         ApplyGrayscale(currentGrayscale);
-
-        isHovered = false;
     }
 
     private void Update()
     {
-        UpdateHoverState();
+        ProcessMouseInteraction();
 
         float smoothTime = Mathf.Max(0.0001f, transitionSeconds);
 
@@ -141,40 +125,15 @@ public sealed class HoverGrayscaleSprite : MonoBehaviour
         targetGrayscale = hovered ? grayscaleWhenHovered : grayscaleWhenNotHovered;
     }
 
-    private void UpdateHoverState()
+    protected override void OnHoverEntered()
     {
-        if (hoverCamera == null || col2D == null)
-        {
-            return;
-        }
+        SetHovered(true);
+        PlayHoverSound();
+    }
 
-        if (Mouse.current == null)
-        {
-            return;
-        }
-
-        // For 2D orthographic cameras, we need proper Z distance
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = hoverCamera.WorldToScreenPoint(transform.position).z;
-        Vector2 mouseWorldPos = hoverCamera.ScreenToWorldPoint(mousePos);
-        
-        bool hoveredNow = col2D.OverlapPoint(mouseWorldPos);
-
-        if (hoveredNow == isHovered)
-        {
-            return;
-        }
-
-        isHovered = hoveredNow;
-        if (isHovered)
-        {
-            SetHovered(true);
-            PlayHoverSound();
-        }
-        else
-        {
-            SetHovered(false);
-        }
+    protected override void OnHoverExited()
+    {
+        SetHovered(false);
     }
 
     private void ApplyGrayscale(float grayscaleAmount)

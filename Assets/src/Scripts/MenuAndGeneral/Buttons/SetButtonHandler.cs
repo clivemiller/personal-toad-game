@@ -1,18 +1,12 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 /// <summary>
 /// Handles button clicks to switch between in-scene sets.
 /// Requires a Collider2D for click detection.
 /// </summary>
 [DisallowMultipleComponent]
-[RequireComponent(typeof(Collider2D))]
-public class SetButtonHandler : MonoBehaviour
+public class SetButtonHandler : MouseInteractable2D
 {
-    [Header("Click Detection")]
-    [SerializeField]
-    private Camera clickCamera;
-
     [Header("Set Settings")]
     [SerializeField]
     private InSceneSetManager setManager;
@@ -27,16 +21,9 @@ public class SetButtonHandler : MonoBehaviour
     private const float clickSoundVolume = 1f;
     private AudioSource audioSource;
 
-    private Collider2D col2D;
-
-    private void Awake()
+    protected override void Awake()
     {
-        col2D = GetComponent<Collider2D>();
-
-        if (clickCamera == null)
-        {
-            clickCamera = Camera.main;
-        }
+        base.Awake();
 
         if (audioSource == null)
         {
@@ -53,39 +40,10 @@ public class SetButtonHandler : MonoBehaviour
 
     private void Update()
     {
-        DetectClick();
+        ProcessMouseInteraction();
     }
 
-    private void DetectClick()
-    {
-        if (clickCamera == null || col2D == null)
-        {
-            return;
-        }
-
-        if (Mouse.current == null)
-        {
-            return;
-        }
-
-        // Check for mouse click
-        if (!Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            return;
-        }
-
-        // Check if click is over this object
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = clickCamera.WorldToScreenPoint(transform.position).z;
-        Vector2 mouseWorldPos = clickCamera.ScreenToWorldPoint(mousePos);
-
-        if (col2D.OverlapPoint(mouseWorldPos))
-        {
-            OnButtonClicked();
-        }
-    }
-
-    private void OnButtonClicked()
+    protected override void OnMouseClicked()
     {
         if (setManager == null)
         {
@@ -99,7 +57,6 @@ public class SetButtonHandler : MonoBehaviour
             return;
         }
 
-        // Play click sound if assigned
         if (clickSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(clickSound, clickSoundVolume);

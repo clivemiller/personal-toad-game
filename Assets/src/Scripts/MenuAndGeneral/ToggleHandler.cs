@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 /// <summary>
 /// Handles a 2-frame animation toggle that controls the b_c_mode global variable.
@@ -8,27 +7,14 @@ using UnityEngine.InputSystem;
 /// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(Collider2D))]
-public class ToggleHandler : MonoBehaviour
+public class ToggleHandler : MouseInteractable2D
 {
-    [Header("Click Detection")]
-    [SerializeField]
-    private Camera clickCamera;
-
     private Animator animator;
-    private Collider2D col2D;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         animator = GetComponent<Animator>();
-        col2D = GetComponent<Collider2D>();
-
-        if (clickCamera == null)
-        {
-            clickCamera = Camera.main;
-        }
-
-        Debug.Log($"ToggleHandler Awake: animator={animator != null}, col2D={col2D != null}, camera={clickCamera != null}");
 
         // Stop animator from auto-playing
         if (animator != null)
@@ -42,50 +28,12 @@ public class ToggleHandler : MonoBehaviour
 
     private void Update()
     {
-        DetectClick();
+        ProcessMouseInteraction();
     }
 
-    private void DetectClick()
+    protected override void OnMouseClicked()
     {
-        if (clickCamera == null || col2D == null)
-        {
-            return;
-        }
-
-        if (Mouse.current == null)
-        {
-            return;
-        }
-
-        // Check for mouse click
-        if (!Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            return;
-        }
-
-        Debug.Log("Click detected!");
-
-        // Check if click is over this object
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = clickCamera.WorldToScreenPoint(transform.position).z;
-        Vector2 mouseWorldPos = clickCamera.ScreenToWorldPoint(mousePos);
-
-        bool isOver = col2D.OverlapPoint(mouseWorldPos);
-        Debug.Log($"Click at {mouseWorldPos}, overlap={isOver}, object position={transform.position}");
-
-        if (isOver)
-        {
-            ToggleState();
-        }
-    }
-
-    private void ToggleState()
-    {
-        // Toggle the global variable
         GlobalVariables.b_c_mode = !GlobalVariables.b_c_mode;
-        Debug.Log($"Toggled b_c_mode to: {GlobalVariables.b_c_mode}");
-
-        // Update animation to match new state
         UpdateAnimationFrame();
     }
 

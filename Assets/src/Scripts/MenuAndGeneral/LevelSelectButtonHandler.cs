@@ -1,20 +1,12 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
-
 /// <summary>
 /// Handles button clicks to select a level and load the constructor scene.
 /// Plays a click sound on button press instead of hover.
 /// Requires a Collider2D for click detection.
 /// </summary>
 [DisallowMultipleComponent]
-[RequireComponent(typeof(Collider2D))]
-public class LevelSelectButtonHandler : MonoBehaviour
+public class LevelSelectButtonHandler : MouseInteractable2D
 {
-    [Header("Click Detection")]
-    [SerializeField]
-    private Camera clickCamera;
-
     [Header("Level Settings")]
     [SerializeField]
     private int levelNumber;
@@ -30,16 +22,9 @@ public class LevelSelectButtonHandler : MonoBehaviour
     private const float clickSoundVolume = 1f;
     private AudioSource audioSource;
 
-    private Collider2D col2D;
-
-    private void Awake()
+    protected override void Awake()
     {
-        col2D = GetComponent<Collider2D>();
-
-        if (clickCamera == null)
-        {
-            clickCamera = Camera.main;
-        }
+        base.Awake();
 
         if (audioSource == null)
         {
@@ -56,39 +41,10 @@ public class LevelSelectButtonHandler : MonoBehaviour
 
     private void Update()
     {
-        DetectClick();
+        ProcessMouseInteraction();
     }
 
-    private void DetectClick()
-    {
-        if (clickCamera == null || col2D == null)
-        {
-            return;
-        }
-
-        if (Mouse.current == null)
-        {
-            return;
-        }
-
-        // Check for mouse click
-        if (!Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            return;
-        }
-
-        // Check if click is over this object
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = clickCamera.WorldToScreenPoint(transform.position).z;
-        Vector2 mouseWorldPos = clickCamera.ScreenToWorldPoint(mousePos);
-
-        if (col2D.OverlapPoint(mouseWorldPos))
-        {
-            OnButtonClicked();
-        }
-    }
-
-    private void OnButtonClicked()
+    protected override void OnMouseClicked()
     {
         if (string.IsNullOrEmpty(constructorSceneName))
         {
@@ -96,7 +52,6 @@ public class LevelSelectButtonHandler : MonoBehaviour
             return;
         }
 
-        // Play click sound if assigned
         if (clickSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(clickSound, clickSoundVolume);
@@ -107,6 +62,6 @@ public class LevelSelectButtonHandler : MonoBehaviour
         PlayerPrefs.Save();
 
         Debug.Log($"Level {levelNumber} selected. Loading constructor scene: {constructorSceneName}");
-        SceneManager.LoadSceneAsync(constructorSceneName);
+        SceneTransitionManager.Load(constructorSceneName, false);
     }
 }

@@ -45,14 +45,16 @@ public class SceneTransitionManager : MonoBehaviour
             return;
         }
 
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-
-        SetupTransitionUI();
+        EnsureInitialized();
     }
 
     private void SetupTransitionUI()
     {
+        if (transitionCanvas != null)
+        {
+            return;
+        }
+
         // Create canvas for the transition overlay
         GameObject canvasObj = new GameObject("TransitionCanvas");
         canvasObj.transform.SetParent(transform);
@@ -99,6 +101,17 @@ public class SceneTransitionManager : MonoBehaviour
         canvasGroup.interactable = false;
     }
 
+    private void EnsureInitialized()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+
+        DontDestroyOnLoad(gameObject);
+        SetupTransitionUI();
+    }
+
     /// <summary>
     /// Generates a procedural fuzzy/noise texture for the transition effect.
     /// </summary>
@@ -139,19 +152,7 @@ public class SceneTransitionManager : MonoBehaviour
     /// <param name="sceneName">The name of the scene to load.</param>
     public void TransitionToScene(string sceneName)
     {
-        if (isTransitioning)
-        {
-            Debug.LogWarning("SceneTransitionManager: Transition already in progress!");
-            return;
-        }
-
-        if (string.IsNullOrEmpty(sceneName))
-        {
-            Debug.LogError("SceneTransitionManager: Scene name cannot be null or empty!");
-            return;
-        }
-
-        StartCoroutine(TransitionCoroutine(sceneName));
+        Load(sceneName, true);
     }
 
     /// <summary>
@@ -160,75 +161,111 @@ public class SceneTransitionManager : MonoBehaviour
     /// <param name="sceneIndex">The build index of the scene to load.</param>
     public void TransitionToScene(int sceneIndex)
     {
-        if (isTransitioning)
+        Load(sceneIndex, true);
+    }
+
+    public static void Load(string sceneName, bool useFade = true)
+    {
+        if (string.IsNullOrWhiteSpace(sceneName))
         {
-            Debug.LogWarning("SceneTransitionManager: Transition already in progress!");
+            Debug.LogError("SceneTransitionManager: Scene name cannot be null or empty!");
             return;
         }
 
-        StartCoroutine(TransitionCoroutine(sceneIndex));
+        if (!Application.CanStreamedLevelBeLoaded(sceneName))
+        {
+            Debug.LogError($"SceneTransitionManager: Scene '{sceneName}' is not in build settings or cannot be loaded.");
+            return;
+        }
+
+        SceneTransitionManager manager = EnsureInstanceExists();
+        if (manager == null)
+        {
+            return;
+        }
+
+        manager.BeginLoad(() => SceneManager.LoadSceneAsync(sceneName), useFade, sceneName);
+    }
+
+    public static void Load(int sceneIndex, bool useFade = true)
+    {
+        if (sceneIndex < 0 || sceneIndex >= SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.LogError($"SceneTransitionManager: Scene index {sceneIndex} is out of range.");
+            return;
+        }
+
+        SceneTransitionManager manager = EnsureInstanceExists();
+        if (manager == null)
+        {
+            return;
+        }
+
+        manager.BeginLoad(() => SceneManager.LoadSceneAsync(sceneIndex), useFade, sceneIndex.ToString());
     }
 
     /// <summary>
-    /// Performs the fade transition and loads the scene by name.
+    /// Static convenience method to transition to a scene with fade.
     /// </summary>
-    private IEnumerator TransitionCoroutine(string sceneName)
+    /// <param name="sceneName">The name of the scene to load.</param>
+    public static void LoadScene(string sceneName)
+    {
+        Load(sceneName, true);
+    }
+
+    /// <summary>
+    /// Static convenience method to transition to a scene by build index with fade.
+    /// </summary>
+    /// <param name="sceneIndex">The build index of the scene to load.</param>
+    public static void LoadScene(int sceneIndex)
+    {
+        Load(sceneIndex, true);
+    }
+
+    private void BeginLoad(Func<AsyncOperation> loadOperationFactory, bool useFade, string targetDescription)
+    {
+        EnsureInitialized();
+
+        if (isTransitioning)
+        {
+            Debug.LogWarning("SceneTransitionManager: Transition already in progress! Ignoring request.");
+            return;
+        }
+
+        StartCoroutine(LoadCoroutine(loadOperationFactory, useFade, targetDescription));
+    }
+
+    private IEnumerator LoadCoroutine(Func<AsyncOperation> loadOperationFactory, bool useFade, string targetDescription)
     {
         isTransitioning = true;
-        float halfDuration = transitionDuration / 2f;
-
-        // Block raycasts during transition
         canvasGroup.blocksRaycasts = true;
 
-        // Fade out (to black)
-        yield return StartCoroutine(FadeCoroutine(0f, 1f, halfDuration));
+        if (useFade)
+        {
+            float halfDuration = transitionDuration / 2f;
+            yield return FadeCoroutine(0f, 1f, halfDuration);
+        }
 
-        // IMMEDIATELY start loading the scene once screen is black
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+        AsyncOperation asyncLoad = loadOperationFactory();
+        if (asyncLoad == null)
+        {
+            Debug.LogError($"SceneTransitionManager: Failed to start loading '{targetDescription}'.");
+            ResetTransitionState();
+            yield break;
+        }
 
-        // Wait for the scene to be FULLY loaded
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
 
-        // Fade in (from black) ONLY after scene is confirmed loaded
-        yield return StartCoroutine(FadeCoroutine(1f, 0f, halfDuration));
-
-        // Re-enable interaction
-        canvasGroup.blocksRaycasts = false;
-        isTransitioning = false;
-    }
-
-    /// <summary>
-    /// Performs the fade transition and loads the scene by build index.
-    /// </summary>
-    private IEnumerator TransitionCoroutine(int sceneIndex)
-    {
-        isTransitioning = true;
-        float halfDuration = transitionDuration / 2f;
-
-        // Block raycasts during transition
-        canvasGroup.blocksRaycasts = true;
-
-        // Fade out (to black)
-        yield return StartCoroutine(FadeCoroutine(0f, 1f, halfDuration));
-
-        // IMMEDIATELY start loading the scene once screen is black
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
-
-        // Wait for the scene to be FULLY loaded
-        while (!asyncLoad.isDone)
+        if (useFade)
         {
-            yield return null;
+            float halfDuration = transitionDuration / 2f;
+            yield return FadeCoroutine(1f, 0f, halfDuration);
         }
 
-        // Fade in (from black) ONLY after scene is confirmed loaded
-        yield return StartCoroutine(FadeCoroutine(1f, 0f, halfDuration));
-
-        // Re-enable interaction
-        canvasGroup.blocksRaycasts = false;
-        isTransitioning = false;
+        ResetTransitionState();
     }
 
     /// <summary>
@@ -253,52 +290,38 @@ public class SceneTransitionManager : MonoBehaviour
         canvasGroup.alpha = endAlpha;
     }
 
-    /// <summary>
-    /// Static convenience method to transition to a scene.
-    /// Creates an instance if one doesn't exist.
-    /// </summary>
-    /// <param name="sceneName">The name of the scene to load.</param>
-    public static void LoadScene(string sceneName)
+    private void ResetTransitionState()
     {
-        EnsureInstanceExists();
-        
-        if (Instance.IsTransitioning)
+        if (canvasGroup != null)
         {
-            Debug.LogWarning("SceneTransitionManager: Transition already in progress! Ignoring request.");
-            return;
+            canvasGroup.alpha = 0f;
+            canvasGroup.blocksRaycasts = false;
+            canvasGroup.interactable = false;
         }
-        
-        Instance.TransitionToScene(sceneName);
-    }
 
-    /// <summary>
-    /// Static convenience method to transition to a scene by build index.
-    /// Creates an instance if one doesn't exist.
-    /// </summary>
-    /// <param name="sceneIndex">The build index of the scene to load.</param>
-    public static void LoadScene(int sceneIndex)
-    {
-        EnsureInstanceExists();
-        
-        if (Instance.IsTransitioning)
-        {
-            Debug.LogWarning("SceneTransitionManager: Transition already in progress! Ignoring request.");
-            return;
-        }
-        
-        Instance.TransitionToScene(sceneIndex);
+        isTransitioning = false;
     }
 
     /// <summary>
     /// Ensures an instance of the SceneTransitionManager exists.
     /// </summary>
-    private static void EnsureInstanceExists()
+    private static SceneTransitionManager EnsureInstanceExists()
     {
-        if (Instance == null)
+        if (Instance != null)
         {
-            GameObject managerObj = new GameObject("SceneTransitionManager");
-            managerObj.AddComponent<SceneTransitionManager>();
+            return Instance;
         }
+
+        Instance = FindFirstObjectByType<SceneTransitionManager>();
+        if (Instance != null)
+        {
+            return Instance;
+        }
+
+        GameObject managerObj = new GameObject("SceneTransitionManager");
+        Instance = managerObj.AddComponent<SceneTransitionManager>();
+        Debug.Log("SceneTransitionManager: No scene instance found. Created a runtime manager with default settings.");
+        return Instance;
     }
 
     private void OnDestroy()

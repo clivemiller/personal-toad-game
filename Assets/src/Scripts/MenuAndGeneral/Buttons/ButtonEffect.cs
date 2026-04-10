@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 /// <summary>
 /// Simple hover effect that:
@@ -9,13 +8,8 @@ using UnityEngine.InputSystem;
 /// Requires a Collider2D (BoxCollider2D recommended) for hover detection.
 /// </summary>
 [DisallowMultipleComponent]
-[RequireComponent(typeof(Collider2D))]
-public class ButtonEffect : MonoBehaviour
+public class ButtonEffect : MouseInteractable2D
 {
-    [Header("Hover Detection")]
-    [SerializeField]
-    private Camera hoverCamera;
-
     [Header("Cursor")]
     [SerializeField]
     private CursorManager.CursorState hoverCursorState = CursorManager.CursorState.CanGrab;
@@ -27,19 +21,11 @@ public class ButtonEffect : MonoBehaviour
     private const float hoverSoundVolume = 1f;
     private AudioSource audioSource;
 
-    private Collider2D col2D;
-
-    private bool isHovered;
     private CursorManager.CursorState cursorStateBeforeHover;
 
-    private void Awake()
+    protected override void Awake()
     {
-        col2D = GetComponent<Collider2D>();
-
-        if (hoverCamera == null)
-        {
-            hoverCamera = Camera.main;
-        }
+        base.Awake();
 
         if (audioSource == null)
         {
@@ -54,54 +40,34 @@ public class ButtonEffect : MonoBehaviour
         }
     }
 
-    private void OnDisable()
-    {
-        if (isHovered)
-        {
-            RestoreCursorStateIfNeeded();
-        }
-
-        isHovered = false;
-    }
-
     private void Update()
     {
-        UpdateHoverState();
+        ProcessMouseInteraction();
     }
 
-    private void UpdateHoverState()
+    protected override void OnHoverEntered()
     {
-        if (hoverCamera == null || col2D == null)
+        SwitchCursorForHover();
+        PlayHoverSound();
+    }
+
+    protected override void OnHoverExited()
+    {
+        RestoreCursorStateIfNeeded();
+    }
+
+    protected override void OnHovering()
+    {
+        if (CursorManager.Instance == null)
         {
             return;
         }
 
-        if (Mouse.current == null)
+        // Re-assert our hover cursor while hovered so neighboring buttons
+        // cannot leave the cursor in the wrong state because of update order.
+        if (CursorManager.Instance.CurrentState != hoverCursorState)
         {
-            return;
-        }
-
-        // For 2D orthographic cameras, we need proper Z distance
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = hoverCamera.WorldToScreenPoint(transform.position).z;
-        Vector2 mouseWorldPos = hoverCamera.ScreenToWorldPoint(mousePos);
-        
-        bool hoveredNow = col2D.OverlapPoint(mouseWorldPos);
-
-        if (hoveredNow == isHovered)
-        {
-            return;
-        }
-
-        isHovered = hoveredNow;
-        if (isHovered)
-        {
-            SwitchCursorForHover();
-            PlayHoverSound();
-        }
-        else
-        {
-            RestoreCursorStateIfNeeded();
+            CursorManager.Instance.Switch(hoverCursorState);
         }
     }
 
