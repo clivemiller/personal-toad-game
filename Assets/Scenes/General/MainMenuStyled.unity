@@ -5550,7 +5550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d3921275dc63e49bdd9439518a2ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExitButtonHandler
-  clickCamera: {fileID: 1978897207}
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
 --- !u!61 &1809113656
 BoxCollider2D:
@@ -5669,7 +5668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 1978897207}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!1 &1898179935
@@ -5947,7 +5945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f417146f60b1a6541ad7c505b46627b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneButtonHandler
-  clickCamera: {fileID: 1978897207}
   doFadeClick: 1
   sceneName: Office
   clickSound: {fileID: 8300000, guid: b2a8ff29c4e0ee24995a425625091b2c, type: 3}
@@ -6068,7 +6065,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6092560bfb8f63b41ae014e2e9475eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonEffect
-  hoverCamera: {fileID: 1978897207}
   hoverCursorState: 4
   hoverSound: {fileID: 0}
 --- !u!1 &2069323175
@@ -6107,7 +6103,7 @@ MonoBehaviour:
   pointerSprite: {fileID: -3811622060508080644, guid: 017d5d35d8a024a4d99aa247c8c56499, type: 3}
   canLookSprite: {fileID: -5254993314742274258, guid: 017d5d35d8a024a4d99aa247c8c56499, type: 3}
   canGrabSprite: {fileID: -2408553961125846213, guid: 017d5d35d8a024a4d99aa247c8c56499, type: 3}
-  canClickSprite: {fileID: -7462614988661092246, guid: 017d5d35d8a024a4d99aa247c8c56499, type: 3}
+  canClickSprite: {fileID: -6791099070315044705, guid: 4853cff6dd16c26488a4d4d714098d56, type: 3}
   isGrabbingSprite: {fileID: -2316628234867876439, guid: 017d5d35d8a024a4d99aa247c8c56499, type: 3}
   canClickRotationSpeedDegreesPerSecond: 180
   canClickScaleMultiplier: 2
