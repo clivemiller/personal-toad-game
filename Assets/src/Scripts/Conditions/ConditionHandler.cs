@@ -5,8 +5,8 @@ using UnityEngine;
 /// </summary>
 public static class ConditionHandler
 {
-    private const string Prefix = "DLG_COND_";
-    private const string KeysTracker = "DLG_COND_KEYS";
+    private const string Prefix = "BASE_COND_";
+    private const string KeysTracker = "BASE_COND_KEYS";
 
     /// <summary>
     /// Sets a condition to true or false.

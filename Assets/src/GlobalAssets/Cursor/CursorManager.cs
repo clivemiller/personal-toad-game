@@ -45,13 +45,6 @@ public sealed class CursorManager : MonoBehaviour
     [SerializeField]
     private Sprite isGrabbingSprite;
 
-    [Header("Can Click Rotation")]
-    [SerializeField]
-    private float canClickRotationSpeedDegreesPerSecond = 180f;
-
-    [Header("Can Click Scale")]
-    [SerializeField]
-    private float canClickScaleMultiplier = 2f;
 
     public CursorState CurrentState { get; private set; }
 
@@ -65,15 +58,6 @@ public sealed class CursorManager : MonoBehaviour
         {
             return;
         }
-
-        float deltaRotation = canClickRotationSpeedDegreesPerSecond * Time.unscaledDeltaTime;
-
-        if (cursorSpriteRenderer == null)
-        {
-            return;
-        }
-
-        cursorSpriteRenderer.transform.Rotate(0f, 0f, deltaRotation);
     }
 
     private void UpdateCursorPosition()
@@ -171,8 +155,7 @@ public sealed class CursorManager : MonoBehaviour
             return;
         }
 
-        float multiplier = state == CursorState.CanClick ? Mathf.Max(0f, canClickScaleMultiplier) : 1f;
-        cursorSpriteRenderer.transform.localScale = baseCursorLocalScale * multiplier;
+        cursorSpriteRenderer.transform.localScale = baseCursorLocalScale;
     }
 
     private Sprite GetSpriteForState(CursorState state)

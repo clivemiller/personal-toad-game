@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // --- DTO (Data Transfer Object) classes for JSON serialization ---
-// Unity's JsonUtility cannot properly serialize recursive object references, 
-// so we parse from a flat list with string IDs, and then build the real tree.
+// JsonUtility cannot properly serialize recursive object references, 
+// so we parse from a flat list with string IDs, and then build the tree.
 
 [System.Serializable]
 public class DialogOptionData
@@ -65,9 +65,10 @@ public static class DialogParser
             };
         }
 
-        // Second pass: establish the connections (nextNode and options targeting)
+        // Second pass: build tree
         foreach (var nodeData in data.nodes)
         {
+            // Get the current node from the dictionary
             DialogNode node = nodeDict[nodeData.id];
 
             // Link Next Node
