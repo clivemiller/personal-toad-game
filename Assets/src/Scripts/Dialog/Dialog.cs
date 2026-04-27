@@ -39,6 +39,7 @@ public abstract class BaseDialogController : MonoBehaviour
 {
     protected DialogTree currentTree;
     protected DialogNode currentNode;
+    protected bool canContinueCurrentNode;
 
     /// <summary>
     /// Starts the dialog sequence from a given tree.
@@ -48,6 +49,7 @@ public abstract class BaseDialogController : MonoBehaviour
         if (tree == null || tree.rootNode == null) return;
         
         currentTree = tree;
+        canContinueCurrentNode = false;
         ShowDialogBox();
         ProcessNode(tree.rootNode);
     }
@@ -70,6 +72,7 @@ public abstract class BaseDialogController : MonoBehaviour
         }
 
         currentNode = node;
+        canContinueCurrentNode = false;
         DisplayDialogText(node.speakerName, node.text);
 
         if (node.options != null && node.options.Count > 0)
@@ -91,12 +94,14 @@ public abstract class BaseDialogController : MonoBehaviour
             else
             {
                 // Standard continue if all options are hidden
+                canContinueCurrentNode = true;
                 WaitForContinue();
             }
         }
         else
         {
             // Wait for a standard "continue" action if there are no explicit dialogue choices.
+            canContinueCurrentNode = true;
             WaitForContinue();
         }
     }
@@ -106,6 +111,7 @@ public abstract class BaseDialogController : MonoBehaviour
     /// </summary>
     public virtual void SelectOption(DialogOption option)
     {
+        canContinueCurrentNode = false;
         ClearOptions();
         ProcessNode(option.targetNode);
     }
@@ -115,7 +121,7 @@ public abstract class BaseDialogController : MonoBehaviour
     /// </summary>
     public virtual void ContinueDialog()
     {
-        if (currentNode != null && (currentNode.options == null || currentNode.options.Count == 0))
+        if (currentNode != null && canContinueCurrentNode)
         {
             ProcessNode(currentNode.nextNode);
         }
@@ -128,6 +134,7 @@ public abstract class BaseDialogController : MonoBehaviour
     {
         currentTree = null;
         currentNode = null;
+        canContinueCurrentNode = false;
         HideDialogBox();
     }
 

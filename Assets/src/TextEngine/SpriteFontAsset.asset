@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6ddfcb7f24d624e94b50881b4bb76a, type: 3}
+  m_Name: SpriteFontAsset
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFontAsset
+  referenceHeight: 3
+  defaultSpaceWidth: 2
+  defaultCharacterSpacing: 2
+  fallbackSprite: {fileID: 0}
+  glyphs:
+  - character: '!'
+    sprite: {fileID: 3582168384322211266, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: '?'
+    sprite: {fileID: -5577392881515459770, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: .
+    sprite: {fileID: 1480199986177111529, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: ','
+    sprite: {fileID: -602648117709434868, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: ''''
+    sprite: {fileID: 6151604835988044288, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: '"'
+    sprite: {fileID: -2129060914464534339, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: ':'
+    sprite: {fileID: -4066411289585170150, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: ;
+    sprite: {fileID: -7767731185808273117, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: A
+    sprite: {fileID: -9192447460705911217, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: a
+    sprite: {fileID: 5091026684990029449, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: 1
+    offset: {x: 0, y: 0}
+  - character: B
+    sprite: {fileID: 8676944355237700709, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: b
+    sprite: {fileID: 5609015662143906861, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: C
+    sprite: {fileID: 1297988659350467098, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: c
+    sprite: {fileID: -4701044313010369925, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: D
+    sprite: {fileID: 5706817116144925907, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: d
+    sprite: {fileID: 630616258498504291, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: E
+    sprite: {fileID: 7012199812972579911, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: e
+    sprite: {fileID: -7561938420081143095, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: F
+    sprite: {fileID: -645451551693487020, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: f
+    sprite: {fileID: 7123377062408530988, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: G
+    sprite: {fileID: -3652204474257894396, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: g
+    sprite: {fileID: -4674494418175018460, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: H
+    sprite: {fileID: -8481886385647788732, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: h
+    sprite: {fileID: 1186399741504725667, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: I
+    sprite: {fileID: -2077183254587784964, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}
+  - character: i
+    sprite: {fileID: -5205061927973763934, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: -1
+    offset: {x: 0, y: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6ddfcb7f24d624e94b50881b4bb76a, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFontAsset
+  referenceHeight: 3
+  defaultSpaceWidth: 16
+  defaultCharacterSpacing: 2
+  fallbackSprite: {fileID: 0}
+  glyphs:
+  - character: a
+    sprite: {fileID: 5091026684990029449, guid: 65fe24462792136478fb49d1b09d7b7e, type: 3}
+    widthOverride: 1
+    heightOverride: 1
+    offset: {x: 0, y: 0}
