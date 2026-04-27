@@ -1,9 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// powershell -ExecutionPolicy Bypass -File C:\Users\clive\personal-toads\tools\DialogDebug.ps1
+
 [System.Serializable]
 public class DialogNode
 {
+    public string id;
     public string speakerName;
     [TextArea(3, 5)]
     public string text;

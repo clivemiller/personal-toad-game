@@ -8,21 +8,21 @@
     {
       "id": "start",
       "speakerName": "witness",
-      "text": "Look how they massacred my boy",
+      "text": "They've kidnapped my son!!!",
       "requiresCondition": "",
       "setsCondition": "",
       "options": [
         { "text": "How old was he?", "targetId": "age", "requiresCondition": "" },
         { "text": "What was his name?", "targetId": "name", "requiresCondition": "" },
-        { "text": "I know enough now.", "targetId": "secret", "requiresCondition": "LearnedName" },
-        { "text": "No thanks, I must be going.", "targetId": "end", "requiresCondition": "" }
+        { "text": "I've heard that name before...", "targetId": "secret", "requiresCondition": "LearnedName" },
+        { "text": "I must be going.", "targetId": "end", "requiresCondition": "" }
       ],
       "nextId": ""
     },
     {
       "id": "age",
       "speakerName": "witness",
-      "text": "He was just a young lad. Barely 20 years old.",
+      "text": "He was just a young lad. Barely 3 weeks hatched.",
       "requiresCondition": "",
       "setsCondition": "AskedAboutAge",
       "options": [],
@@ -31,7 +31,7 @@
     {
       "id": "name",
       "speakerName": "witness",
-      "text": "His name was Bartholomew. A strong name.",
+      "text": "His name was Taddy. After his grandfrogger.",
       "requiresCondition": "",
       "setsCondition": "LearnedName",
       "options": [],
@@ -40,7 +40,7 @@
     {
       "id": "secret",
       "speakerName": "witness",
-      "text": "Ah, so you know of Bartholomew's secret. Then you must help me.",
+      "text": "Ah, so you've heard of Grandfrogger Taddy's notoriety. He had an massive fortune before he died, leaving it all to my son.",
       "requiresCondition": "",
       "setsCondition": "",
       "options": [],
@@ -49,7 +49,7 @@
     {
       "id": "end",
       "speakerName": "witness",
-      "text": "Safe travels! Avenge my boy...",
+      "text": "Farewell! Find my boy...",
       "requiresCondition": "",
       "setsCondition": "",
       "options": [],

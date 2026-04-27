@@ -57,6 +57,7 @@ public static class DialogParser
         {
             nodeDict[nodeData.id] = new DialogNode()
             {
+                id = nodeData.id,
                 speakerName = nodeData.speakerName,
                 text = nodeData.text,
                 requiresCondition = nodeData.requiresCondition,
