@@ -1,3 +1,5 @@
+# This script was made for debugging my code. It was written with the assistance of AI
+
 [CmdletBinding()]
 param(
     [string]$Dialog = "Assets/src/Scripts/Dialog/ExampleDialog.json",

@@ -1,3 +1,5 @@
+// This script was made for debugging my code. It was written with the assistance of AI
+
 using System;
 using System.Collections.Generic;
 using System.IO;
